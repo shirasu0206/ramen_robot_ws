@@ -1,0 +1,19 @@
+saba@saba-pc:~$ ls /dev/video*
+/dev/video0  /dev/video1  /dev/video2  /dev/video3
+saba@saba-pc:~$ v4l2-ctl --list-devices
+HP 4K Webcam: HP 4K Webcam (usb-0000:00:14.0-5):
+	/dev/video0
+	/dev/video1
+	/dev/media0
+
+UVC Camera (046d:0821) (usb-0000:00:14.0-6):
+	/dev/video2
+	/dev/video3
+	/dev/media1
+
+使用するコマンドは以下の２つ。ただ、これは確認作業。
+ls /dev/video*
+v4l2-ctl --list-devices
+これで上記のような結果が得られたらOK!
+device番号は、HP 4K Webcam: HP 4K Webcamが/dev/video0,UVC Camera (046d:0821)が/dev/video2なので、コードの変更をよろしく。
+起動して間違ってるのに気づいたら、その場で刺し直してもらえばOK。刺す場所は青い枠で囲われたUSB3.0ポートの一番右にネギのカメラ（HP 4K Webcam: HP 4K Webcam）、右から2番目に、チャーシューのカメラ（UVC Camera (046d:0821)）を刺してほしい。

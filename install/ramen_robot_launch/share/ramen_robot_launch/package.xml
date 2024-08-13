@@ -1,0 +1,21 @@
+<package format="2">
+  <name>ramen_robot_launch</name>
+  <version>0.0.0</version>
+  <description>Launch file for ramen_robot project</description>
+
+  <maintainer email="saba@todo.todo">saba</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>agv_commander</depend>
+  <depend>ur5</depend>
+  <depend>ur3</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

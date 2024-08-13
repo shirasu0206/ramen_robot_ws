@@ -1,0 +1,5 @@
+[console_scripts]
+agv1_node = agv.agv1_node:main
+agv2_node = agv.agv2_node:main
+agv3_node = agv.agv3_node:main
+agv_commander_node = agv.agv_commander_node:main

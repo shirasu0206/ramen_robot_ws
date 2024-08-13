@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/ramen_robot_launch/ramen_robot_launch.egg-info
+writing ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/PKG-INFO
+writing dependency_links to ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/dependency_links.txt
+writing requirements to ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/requires.txt
+writing top-level names to ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/top_level.txt
+writing manifest file '../../build/ramen_robot_launch/ramen_robot_launch.egg-info/SOURCES.txt'
+reading manifest file '../../build/ramen_robot_launch/ramen_robot_launch.egg-info/SOURCES.txt'
+writing manifest file '../../build/ramen_robot_launch/ramen_robot_launch.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saba/workspaces/ramen_robot_ws/build/ramen_robot_launch/build
+creating /home/saba/workspaces/ramen_robot_ws/build/ramen_robot_launch/build/lib
+creating /home/saba/workspaces/ramen_robot_ws/build/ramen_robot_launch/build/lib/ramen_robot_launch
+copying ramen_robot_launch/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/ramen_robot_launch/build/lib/ramen_robot_launch
+running install
+running install_lib
+creating /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/lib/python3.10/site-packages/ramen_robot_launch
+copying /home/saba/workspaces/ramen_robot_ws/build/ramen_robot_launch/build/lib/ramen_robot_launch/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/lib/python3.10/site-packages/ramen_robot_launch
+byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/lib/python3.10/site-packages/ramen_robot_launch/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/share/ament_index
+creating /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/share/ament_index/resource_index
+creating /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/share/ament_index/resource_index/packages
+copying resource/ramen_robot_launch -> /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/share/ament_index/resource_index/packages
+copying package.xml -> /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/share/ramen_robot_launch
+creating /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/share/ramen_robot_launch/launch
+copying launch/ramen_robot_launch.py -> /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/share/ramen_robot_launch/launch
+running install_egg_info
+Copying ../../build/ramen_robot_launch/ramen_robot_launch.egg-info to /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/lib/python3.10/site-packages/ramen_robot_launch-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/ramen_robot_launch/install.log'

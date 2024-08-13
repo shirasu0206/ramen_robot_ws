@@ -1,0 +1,29 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring [is-mock]...
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saba/workspaces/ramen_robot_ws/build/is-mock
+[ 50%] [32mBuilding CXX object CMakeFiles/is-mock.dir/src/SystemHandle.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library is/mock/lib/libis-mock.so[0m
+[100%] Built target is-mock
+-- Install configuration: ""
+-- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-mock/lib/libis-mock.so.3.1.0
+-- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-mock/lib/libis-mock.so.3.1
+-- Set runtime path of "/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib/libis-mock.so.3.1.0" to ""
+-- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-mock/lib/libis-mock.so
+-- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-mock/include
+-- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-mock/include/is
+-- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-mock/include/is/sh
+-- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-mock/include/is/sh/mock
+-- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-mock/include/is/sh/mock/api.hpp

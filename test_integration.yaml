@@ -1,0 +1,9 @@
+systems:
+    ros2_domain0: { type: ros2, domain: 0, node_name: "is_node_0" }
+    ros2_domain1: { type: ros2, domain: 1, node_name: "is_node_1" }
+
+routes:
+    domain_0_to_1: { from: ros2_domain0, to: ros2_domain1 }
+
+topics:
+    test_topic: { type: "std_msgs/String", route: domain_0_to_1 }

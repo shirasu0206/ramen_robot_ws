@@ -1,0 +1,10 @@
+systems:
+    ros2_domain0: { type: ros2, domain: 0, node_name: "is_node_0" }
+    ros2_domain1: { type: ros2, domain: 1, node_name: "is_node_1" }
+routes:
+    domain_0_to_1: { from: ros2_domain0, to: ros2_domain1 }
+    domain_1_to_0: { from: ros2_domain1, to: ros2_domain0 }
+
+topics:
+    agv_arrival: { type: "std_msgs/String", route: domain_1_to_0 }
+    agv_command: { type: "std_msgs/String", route: domain_0_to_1 }

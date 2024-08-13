@@ -1,0 +1,14 @@
+torch==2.0.0
+torchvision==0.15.0
+omegaconf
+torchmetrics==0.10.3
+fvcore
+iopath
+xformers==0.0.18
+submitit
+cuml-cu11
+
+[dev]
+black==22.6.0
+flake8==5.0.4
+pylint==2.15.0

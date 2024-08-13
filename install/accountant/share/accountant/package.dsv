@@ -1,0 +1,6 @@
+source;share/accountant/hook/pythonpath.ps1
+source;share/accountant/hook/pythonpath.dsv
+source;share/accountant/hook/pythonpath.sh
+source;share/accountant/hook/ament_prefix_path.ps1
+source;share/accountant/hook/ament_prefix_path.dsv
+source;share/accountant/hook/ament_prefix_path.sh

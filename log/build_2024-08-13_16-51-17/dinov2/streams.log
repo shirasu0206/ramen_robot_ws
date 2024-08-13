@@ -1,0 +1,20 @@
+[8.298s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/torchhub/facebookresearch_dinov2_main': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/dinov2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dinov2 build --build-base /home/saba/workspaces/ramen_robot_ws/build/dinov2/build install --record /home/saba/workspaces/ramen_robot_ws/build/dinov2/install.log --single-version-externally-managed
+[10.058s] /home/saba/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:275: UserWarning: Unknown distribution option: 'install_package_data'
+[10.059s]   warnings.warn(msg)
+[12.747s] running egg_info
+[12.933s] writing ../../build/dinov2/dinov2.egg-info/PKG-INFO
+[13.064s] writing dependency_links to ../../build/dinov2/dinov2.egg-info/dependency_links.txt
+[14.023s] writing requirements to ../../build/dinov2/dinov2.egg-info/requires.txt
+[14.316s] writing top-level names to ../../build/dinov2/dinov2.egg-info/top_level.txt
+[14.711s] reading manifest file '../../build/dinov2/dinov2.egg-info/SOURCES.txt'
+[14.712s] adding license file 'LICENSE'
+[14.715s] writing manifest file '../../build/dinov2/dinov2.egg-info/SOURCES.txt'
+[14.715s] running build
+[14.715s] running build_py
+[14.731s] running install
+[14.761s] running install_lib
+[15.096s] running install_egg_info
+[15.463s] removing '/home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2-0.0.1-py3.10.egg-info' (and everything under it)
+[15.464s] Copying ../../build/dinov2/dinov2.egg-info to /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2-0.0.1-py3.10.egg-info
+[15.466s] running install_scripts
+[16.009s] writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/dinov2/install.log'

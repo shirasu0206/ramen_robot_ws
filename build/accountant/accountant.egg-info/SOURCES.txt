@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/accountant/accountant.egg-info/PKG-INFO
+../../build/accountant/accountant.egg-info/SOURCES.txt
+../../build/accountant/accountant.egg-info/dependency_links.txt
+../../build/accountant/accountant.egg-info/entry_points.txt
+../../build/accountant/accountant.egg-info/requires.txt
+../../build/accountant/accountant.egg-info/top_level.txt
+../../build/accountant/accountant.egg-info/zip-safe
+accountant/__init__.py
+accountant/accountant_node.py
+resource/accountant
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,4 @@
+Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples': /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/Integration-Service/examples/utils -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-examples
+Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples' returned '0': /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/Integration-Service/examples/utils -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-examples
+Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-examples -- -j16 -l16
+Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples' returned '0': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-examples -- -j16 -l16
