@@ -1,0 +1,209 @@
+[7.260s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/torchhub/facebookresearch_dinov2_main': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/dinov2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dinov2 build --build-base /home/saba/workspaces/ramen_robot_ws/build/dinov2/build install --record /home/saba/workspaces/ramen_robot_ws/build/dinov2/install.log --single-version-externally-managed
+[7.898s] /home/saba/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:275: UserWarning: Unknown distribution option: 'install_package_data'
+[7.899s]   warnings.warn(msg)
+[8.769s] running egg_info
+[8.770s] creating ../../build/dinov2/dinov2.egg-info
+[8.871s] writing ../../build/dinov2/dinov2.egg-info/PKG-INFO
+[8.945s] writing dependency_links to ../../build/dinov2/dinov2.egg-info/dependency_links.txt
+[9.301s] writing requirements to ../../build/dinov2/dinov2.egg-info/requires.txt
+[9.374s] writing top-level names to ../../build/dinov2/dinov2.egg-info/top_level.txt
+[9.374s] writing manifest file '../../build/dinov2/dinov2.egg-info/SOURCES.txt'
+[9.505s] reading manifest file '../../build/dinov2/dinov2.egg-info/SOURCES.txt'
+[9.505s] adding license file 'LICENSE'
+[9.506s] writing manifest file '../../build/dinov2/dinov2.egg-info/SOURCES.txt'
+[9.507s] running build
+[9.507s] running build_py
+[9.507s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build
+[9.507s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib
+[9.507s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2
+[9.508s] copying dinov2/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2
+[9.508s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/run
+[9.508s] copying dinov2/run/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/run
+[9.522s] copying dinov2/run/submit.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/run
+[9.523s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils
+[9.523s] copying dinov2/utils/param_groups.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils
+[9.523s] copying dinov2/utils/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils
+[9.524s] copying dinov2/utils/dtype.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils
+[9.524s] copying dinov2/utils/utils.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils
+[9.524s] copying dinov2/utils/cluster.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils
+[9.525s] copying dinov2/utils/config.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils
+[9.525s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/train
+[9.525s] copying dinov2/train/train.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/train
+[9.526s] copying dinov2/train/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/train
+[9.526s] copying dinov2/train/ssl_meta_arch.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/train
+[9.527s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/fsdp
+[9.528s] copying dinov2/fsdp/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/fsdp
+[9.529s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/distributed
+[9.529s] copying dinov2/distributed/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/distributed
+[9.537s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/models
+[9.537s] copying dinov2/models/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/models
+[9.539s] copying dinov2/models/vision_transformer.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/models
+[9.540s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/configs
+[9.540s] copying dinov2/configs/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/configs
+[9.552s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.553s] copying dinov2/layers/layer_scale.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.553s] copying dinov2/layers/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.553s] copying dinov2/layers/block.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.554s] copying dinov2/layers/swiglu_ffn.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.554s] copying dinov2/layers/attention.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.554s] copying dinov2/layers/drop_path.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.554s] copying dinov2/layers/dino_head.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.555s] copying dinov2/layers/patch_embed.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.555s] copying dinov2/layers/mlp.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers
+[9.556s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss
+[9.557s] copying dinov2/loss/ibot_patch_loss.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss
+[9.557s] copying dinov2/loss/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss
+[9.558s] copying dinov2/loss/dino_clstoken_loss.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss
+[9.558s] copying dinov2/loss/koleo_loss.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss
+[9.559s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/logging
+[9.559s] copying dinov2/logging/helpers.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/logging
+[9.559s] copying dinov2/logging/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/logging
+[9.559s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.559s] copying dinov2/eval/linear.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.560s] copying dinov2/eval/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.560s] copying dinov2/eval/utils.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.560s] copying dinov2/eval/metrics.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.561s] copying dinov2/eval/knn.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.561s] copying dinov2/eval/log_regression.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.561s] copying dinov2/eval/setup.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval
+[9.561s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.561s] copying dinov2/data/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.562s] copying dinov2/data/masking.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.562s] copying dinov2/data/augmentations.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.562s] copying dinov2/data/transforms.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.563s] copying dinov2/data/adapters.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.563s] copying dinov2/data/loaders.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.563s] copying dinov2/data/collate.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.563s] copying dinov2/data/samplers.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data
+[9.564s] creating /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets
+[9.564s] copying dinov2/data/datasets/image_net.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets
+[9.565s] copying dinov2/data/datasets/image_net_22k.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets
+[9.565s] copying dinov2/data/datasets/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets
+[9.565s] copying dinov2/data/datasets/extended.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets
+[9.565s] copying dinov2/data/datasets/decoders.py -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets
+[9.567s] copying dinov2/configs/ssl_default_config.yaml -> /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/configs
+[9.569s] running install
+[9.577s] running install_lib
+[9.715s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2
+[9.715s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/run
+[9.715s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/run/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/run
+[9.716s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/run/submit.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/run
+[9.716s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2
+[9.716s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils
+[9.716s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils/param_groups.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils
+[9.717s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils
+[9.717s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils/dtype.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils
+[9.717s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils/utils.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils
+[9.717s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils/cluster.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils
+[9.717s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/utils/config.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils
+[9.717s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/train
+[9.718s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/train/train.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/train
+[9.718s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/train/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/train
+[9.718s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/train/ssl_meta_arch.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/train
+[9.718s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/fsdp
+[9.718s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/fsdp/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/fsdp
+[9.719s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/distributed
+[9.719s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/distributed/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/distributed
+[9.719s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/models
+[9.719s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/models/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/models
+[9.719s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/models/vision_transformer.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/models
+[9.720s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/configs
+[9.720s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/configs/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/configs
+[9.720s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/configs/ssl_default_config.yaml -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/configs
+[9.720s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.721s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/layer_scale.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.721s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.721s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/block.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.722s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/swiglu_ffn.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.722s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/attention.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.722s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/drop_path.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.722s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/dino_head.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.722s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/patch_embed.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.722s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/layers/mlp.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers
+[9.723s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss
+[9.723s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss/ibot_patch_loss.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss
+[9.723s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss
+[9.723s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss/dino_clstoken_loss.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss
+[9.723s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/loss/koleo_loss.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss
+[9.724s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/logging
+[9.724s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/logging/helpers.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/logging
+[9.724s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/logging/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/logging
+[9.724s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.724s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval/linear.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.725s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.725s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval/utils.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.725s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval/metrics.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.725s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval/knn.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.725s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval/log_regression.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.725s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/eval/setup.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval
+[9.726s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.726s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.726s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/masking.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.726s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/augmentations.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.726s] creating /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets
+[9.726s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets/image_net.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets
+[9.727s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets/image_net_22k.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets
+[9.727s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets
+[9.727s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets/extended.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets
+[9.727s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/datasets/decoders.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets
+[9.727s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/transforms.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.727s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/adapters.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.728s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/loaders.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.728s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/collate.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.728s] copying /home/saba/workspaces/ramen_robot_ws/build/dinov2/build/lib/dinov2/data/samplers.py -> /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data
+[9.728s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/run/__init__.py to __init__.cpython-310.pyc
+[9.728s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/run/submit.py to submit.cpython-310.pyc
+[9.728s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/__init__.py to __init__.cpython-310.pyc
+[9.729s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils/param_groups.py to param_groups.cpython-310.pyc
+[9.729s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils/__init__.py to __init__.cpython-310.pyc
+[9.729s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils/dtype.py to dtype.cpython-310.pyc
+[9.729s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils/utils.py to utils.cpython-310.pyc
+[9.730s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils/cluster.py to cluster.cpython-310.pyc
+[9.731s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/utils/config.py to config.cpython-310.pyc
+[9.732s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/train/train.py to train.cpython-310.pyc
+[9.735s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/train/__init__.py to __init__.cpython-310.pyc
+[9.735s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/train/ssl_meta_arch.py to ssl_meta_arch.cpython-310.pyc
+[9.738s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/fsdp/__init__.py to __init__.cpython-310.pyc
+[9.740s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/distributed/__init__.py to __init__.cpython-310.pyc
+[9.742s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/models/__init__.py to __init__.cpython-310.pyc
+[9.742s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/models/vision_transformer.py to vision_transformer.cpython-310.pyc
+[9.746s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/configs/__init__.py to __init__.cpython-310.pyc
+[9.747s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/layer_scale.py to layer_scale.cpython-310.pyc
+[9.747s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/__init__.py to __init__.cpython-310.pyc
+[9.748s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/block.py to block.cpython-310.pyc
+[9.750s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/swiglu_ffn.py to swiglu_ffn.cpython-310.pyc
+[9.751s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/attention.py to attention.cpython-310.pyc
+[9.752s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/drop_path.py to drop_path.cpython-310.pyc
+[9.752s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/dino_head.py to dino_head.cpython-310.pyc
+[9.753s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/patch_embed.py to patch_embed.cpython-310.pyc
+[9.754s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/layers/mlp.py to mlp.cpython-310.pyc
+[9.754s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss/ibot_patch_loss.py to ibot_patch_loss.cpython-310.pyc
+[9.756s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss/__init__.py to __init__.cpython-310.pyc
+[9.756s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss/dino_clstoken_loss.py to dino_clstoken_loss.cpython-310.pyc
+[9.757s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/loss/koleo_loss.py to koleo_loss.cpython-310.pyc
+[9.758s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/logging/helpers.py to helpers.cpython-310.pyc
+[9.760s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/logging/__init__.py to __init__.cpython-310.pyc
+[9.761s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval/linear.py to linear.cpython-310.pyc
+[9.765s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval/__init__.py to __init__.cpython-310.pyc
+[9.765s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval/utils.py to utils.cpython-310.pyc
+[9.766s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval/metrics.py to metrics.cpython-310.pyc
+[9.768s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval/knn.py to knn.cpython-310.pyc
+[9.771s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval/log_regression.py to log_regression.cpython-310.pyc
+[9.773s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/eval/setup.py to setup.cpython-310.pyc
+[9.774s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/__init__.py to __init__.cpython-310.pyc
+[9.774s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/masking.py to masking.cpython-310.pyc
+[9.775s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/augmentations.py to augmentations.cpython-310.pyc
+[9.776s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets/image_net.py to image_net.cpython-310.pyc
+[9.779s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets/image_net_22k.py to image_net_22k.cpython-310.pyc
+[9.781s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets/__init__.py to __init__.cpython-310.pyc
+[9.782s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets/extended.py to extended.cpython-310.pyc
+[9.782s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/datasets/decoders.py to decoders.cpython-310.pyc
+[9.783s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/transforms.py to transforms.cpython-310.pyc
+[9.784s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/adapters.py to adapters.cpython-310.pyc
+[9.784s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/loaders.py to loaders.cpython-310.pyc
+[9.786s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/collate.py to collate.cpython-310.pyc
+[9.787s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2/data/samplers.py to samplers.cpython-310.pyc
+[9.788s] running install_egg_info
+[9.892s] Copying ../../build/dinov2/dinov2.egg-info to /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2-0.0.1-py3.10.egg-info
+[9.893s] running install_scripts
+[10.084s] writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/dinov2/install.log'

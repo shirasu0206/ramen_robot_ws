@@ -1,4 +1,0 @@
-/home/saba/workspaces/ramen_robot_ws/install/is-ros2/include/is/sh/ros2/Factory.hpp
-/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib/libis-ros2.so.3.1.0
-/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib/libis-ros2.so.3.1
-/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib/libis-ros2.so

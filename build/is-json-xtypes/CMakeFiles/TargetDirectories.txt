@@ -1,8 +1,0 @@
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/is-json-xtypes.dir
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/is-json-xtypes-example.dir
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/edit_cache.dir
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/rebuild_cache.dir
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/list_install_components.dir
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/install.dir
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/install/local.dir
-/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes/CMakeFiles/install/strip.dir

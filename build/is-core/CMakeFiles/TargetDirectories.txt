@@ -1,4 +1,3 @@
-/home/saba/workspaces/ramen_robot_ws/build/is-core/CMakeFiles/xtypes-ext.dir
 /home/saba/workspaces/ramen_robot_ws/build/is-core/CMakeFiles/is-core.dir
 /home/saba/workspaces/ramen_robot_ws/build/is-core/CMakeFiles/integration-service.dir
 /home/saba/workspaces/ramen_robot_ws/build/is-core/CMakeFiles/Experimental.dir

@@ -113,6 +113,13 @@ class Negi(Node):
 
             self.edge(self.outdir)
             self.depth_calc = self.trimming(self.yc_min, self.yc_max, self.xc_min, self.xc_max, self.depth_abs)
+            width = self.xc_max - self.xc_min
+            hight = self.yc_max - self.yc_min
+            area0 = self.trimming()
+            area1 = self.trimming()
+            area2 = self.trimming()
+            area3 = self.trimming()
+            area4 = self.trimming()
             self.analyse_tensor(self.depth_calc)
             self.DEPTH = self.depth_calc.mean().item()
 

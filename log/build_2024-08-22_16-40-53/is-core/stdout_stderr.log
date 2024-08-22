@@ -1,0 +1,76 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Updating submodules
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saba/workspaces/ramen_robot_ws/build/is-core
+fatal: No url found for submodule path './' in .gitmodules
+[0mERRORCannot update git submodules and xtypes are missing[0m
+[  9%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/FieldToString.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/StringTemplate.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/utils/Log.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/MiddlewareInterfaceExtension.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/Search.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/systemhandle/RegisterSystem.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/Config.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/Instance.cpp.o[0m
+In file included from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/runtime/FieldToString.hpp:22[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/runtime/FieldToString.cpp:19[m[K:
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Message.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kxtypes/xtypes.hpp: そのようなファイルやディレクトリはありません
+   21 | #include [01;31m[K<xtypes/xtypes.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/runtime/StringTemplate.hpp:22[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/runtime/StringTemplate.cpp:18[m[K:
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Message.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kxtypes/xtypes.hpp: そのようなファイルやディレクトリはありません
+   21 | #include [01;31m[K<xtypes/xtypes.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/is-core.dir/build.make:76: CMakeFiles/is-core.dir/src/runtime/FieldToString.cpp.o] エラー 1
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/is-core.dir/build.make:118: CMakeFiles/is-core.dir/src/runtime/StringTemplate.cpp.o] エラー 1
+In file included from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/systemhandle/SystemHandle.hpp:23[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/systemhandle/RegisterSystem.hpp:22[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/systemhandle/RegisterSystem.cpp:19[m[K:
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Message.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kxtypes/xtypes.hpp: そのようなファイルやディレクトリはありません
+   21 | #include [01;31m[K<xtypes/xtypes.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/systemhandle/SystemHandle.hpp:23[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/systemhandle/RegisterSystem.hpp:22[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Config.hpp:22[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/Config.cpp:19[m[K:
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Message.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kxtypes/xtypes.hpp: そのようなファイルやディレクトリはありません
+   21 | #include [01;31m[K<xtypes/xtypes.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/is-core.dir/build.make:132: CMakeFiles/is-core.dir/src/systemhandle/RegisterSystem.cpp.o] エラー 1
+gmake[2]: *** [CMakeFiles/is-core.dir/build.make:160: CMakeFiles/is-core.dir/src/Config.cpp.o] エラー 1
+In file included from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/systemhandle/SystemHandle.hpp:23[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/systemhandle/RegisterSystem.hpp:22[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Config.hpp:22[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Instance.hpp:26[m[K,
+                 from [01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/Instance.cpp:18[m[K:
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include/is/core/Message.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kxtypes/xtypes.hpp: そのようなファイルやディレクトリはありません
+   21 | #include [01;31m[K<xtypes/xtypes.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/is-core.dir/build.make:174: CMakeFiles/is-core.dir/src/Instance.cpp.o] エラー 1
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/runtime/Search.cpp:[m[K In constructor ‘[01m[Keprosima::is::core::Search::Implementation::GlobalPathInitializer::GlobalPathInitializer()[m[K’:
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/runtime/Search.cpp:530:37:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Kpath[m[K’ of type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’} binds to a temporary constructed from type ‘[01m[Kconst char* const[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wrange-loop-construct-Wrange-loop-construct]8;;[m[K]
+  530 |             for (const std::string& [01;35m[Kpath[m[K :
+      |                                     [01;35m[K^~~~[m[K
+[01m[K/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/src/runtime/Search.cpp:530:37:[m[K [01;36m[Knote: [m[Kuse non-reference type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to make the copy explicit or ‘[01m[Kconst char* const&[m[K’ to prevent copying
+gmake[1]: *** [CMakeFiles/Makefile2:130: CMakeFiles/is-core.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

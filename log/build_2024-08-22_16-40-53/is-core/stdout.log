@@ -1,0 +1,25 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Updating submodules
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saba/workspaces/ramen_robot_ws/build/is-core
+[  9%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/FieldToString.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/StringTemplate.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/utils/Log.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/MiddlewareInterfaceExtension.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/runtime/Search.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/systemhandle/RegisterSystem.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/Config.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/is-core.dir/src/Instance.cpp.o[0m

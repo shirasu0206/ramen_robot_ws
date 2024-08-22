@@ -1,4 +1,0 @@
-Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-core': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-core -- -j16 -l16
-Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-core' returned '0': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-core -- -j16 -l16
-Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-core': /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-core
-Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-core' returned '0': /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-core

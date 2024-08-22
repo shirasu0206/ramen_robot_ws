@@ -6,6 +6,7 @@ import itertools
 import socket
 import time
 import math
+import sys
 import os
 sys.path.append(os.path.expanduser('~/workspaces/ramen_robot_ws/ur_control'))
 from ur_listener import UrListener
@@ -43,20 +44,6 @@ class UR5PorkNode(Node):
         except ValueError as e:
             self.get_logger().error(f"Received an invalid message: {msg.data}, Error: {e}")
 
-    def get_background(self):
-        cap = cv2.VideoCapture(2)
-        if not cap.isOpened():
-            self.get_logger().error('カメラが開きませんでした')
-            return None
-        for _ in range(20):
-            _, _ = cap.read()
-        ret, frame = cap.read()
-        if not ret:
-            self.get_logger().error('画像を読み込めませんでした')
-            return None 
-        cv2.imwrite("/home/saba/workspaces/ramen_robot_ws/ur_pork_code/background.jpg", frame)
-        cap.release()
-
     def image_processing(self, frame):
         height, width = frame.shape[:2]
         x_start = 300
@@ -67,6 +54,21 @@ class UR5PorkNode(Node):
         frame_gray = cv2.cvtColor(cropped_frame, cv2.COLOR_BGR2GRAY)
         frame_gray = cv2.GaussianBlur(frame_gray, (11, 11), 0)
         return cropped_frame, frame_gray
+
+    def get_background(self):
+        cap = cv2.VideoCapture(2)
+        if not cap.isOpened():
+            self.get_logger().error('カメラが開きませんでした')
+            return None
+        for _ in range(20):
+            _, _ = cap.read()
+        ret, frame = cap.read()
+        if not ret:
+            self.get_logger().error('画像を読み込めませんでした')
+            return None
+        _, frame_gray = self.image_processing(frame)
+        cv2.imwrite("/home/saba/workspaces/ramen_robot_ws/ur_pork_code/background.jpg", frame_gray)
+        cap.release()
 
     def detect(self):
         cap = cv2.VideoCapture(2)
@@ -79,18 +81,24 @@ class UR5PorkNode(Node):
         if not ret:
             self.get_logger().error('画像を読み込めませんでした')
             return None
-        background = cv2.imread('/home/saba/workspaces/ramen_robot_ws/ur_pork_code/background.jpg')
         cropped_frame, frame_gray = self.image_processing(frame)
-        _, background_gray = self.image_processing(background)
-        diff = cv2.absdiff(frame_gray, background_gray)
+        background = cv2.imread('/home/saba/workspaces/ramen_robot_ws/ur_pork_code/background.jpg')
+        
+        threshold = 50
+        diff = cv2.absdiff(frame_gray, background)
 
-        _, thresh = cv2.threshold(diff, 50, 255, cv2.THRESH_BINARY)
+        _, thresh = cv2.threshold(diff, threshold, 255, cv2.THRESH_BINARY)
 
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
         thresh = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel)
 
         contours = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-
+        
+        mask = diff < threshold
+        background[mask] = frame_gray[mask]
+        
+        cv2.imwrite("/home/saba/workspaces/ramen_robot_ws/ur_pork_code/background.jpg", background)
+        
         area_center_end = {}
         if contours == ((), None):
             pass
@@ -126,14 +134,14 @@ class UR5PorkNode(Node):
             "set_tcp(p[0, 0.050, 0.132, 0, 0, 0])" + "\n"
             "movej([-0.8463101542920504, -1.7421876593407395, -2.0601866490541068, -0.8862781941627205, 1.6123351629923617, 2.27451308119901], a=3.00, v=1.50)" + "\n"
             "end" + "\n"))
-            time.sleep(4) 
+            time.sleep(4)
             while nr < self.current_order:
                 area_threshold = 1500
                 
                 if len(area_center_end) == 0:
                     break
                 len_fork = 120*450/620
-                interfere = 35*450/620
+                interfere = 50*450/620
                 p_NGareas = []
                 n_NGareas = []
                 p_near = {}
@@ -282,12 +290,6 @@ class UR5PorkNode(Node):
                         +"end" +"\n"))
                         time.sleep(4)
                         data = s.recv(1024)
-                        if len(area_center_end) == len(area_center_end_feedback):
-                            self.get_logger().info("miss picking")
-                            miss_counter += 1
-                        else:
-                            area_center_end = area_center_end_feedback
-                            nr += 1
                         last_pose = "P"
                     else:
                         if areas[n] not in n_near_p or n_near_p.get(areas[n]) or n_near_p.get(areas[n]) > len_fork:
@@ -355,13 +357,13 @@ class UR5PorkNode(Node):
                         +"end" +"\n"))
                         time.sleep(5)
                         data = s.recv(1024)
-                        if len(area_center_end) == len(area_center_end_feedback):
-                            self.get_logger().info("miss picking")
-                            miss_counter += 1
-                        else:
-                            area_center_end = area_center_end_feedback
-                            nr += 1
                         last_pose = "N"
+                    if len(area_center_end) == len(area_center_end_feedback):
+                        self.get_logger().info("miss picking")
+                        miss_counter += 1
+                    else:
+                        nr += 1
+                    area_center_end = area_center_end_feedback
                 if miss_counter > 1:
                     self.get_logger().info("Sorry, I couldn't pick chashu.")
                     break

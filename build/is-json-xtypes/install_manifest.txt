@@ -1,9 +1,0 @@
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/libis-json-xtypes.so.3.1.0
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/libis-json-xtypes.so.3.1
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/libis-json-xtypes.so
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/cmake/is-json-xtypes/is-json-xtypes-target.cmake
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/cmake/is-json-xtypes/is-json-xtypes-target-noconfig.cmake
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/include/is/json-xtypes/json.hpp
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/include/is/json-xtypes/conversion.hpp
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/cmake/is-json-xtypes/is-json-xtypesConfig.cmake
-/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/bin/is-json-xtypes-example

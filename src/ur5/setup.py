@@ -21,8 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'ur5_noodle_node = ur5.ur5_noodle_node:main',
-            'ur5_pork_node = ur5.ur5_pork_node:main',
             'ur5_retouch_node = ur5.ur5_retouch_node:main',
+            'ur5_pork_node = ur5.ur5_pork_node:main',
             'pork_image_node = ur5.pork_image_node:main'
         ],
     },

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -shared -Wl,-soname,libis-json-xtypes.so.3.1 -o libis-json-xtypes.so.3.1.0 CMakeFiles/is-json-xtypes.dir/src/conversion.cpp.o  -Wl,-rpath,/home/saba/workspaces/ramen_robot_ws/install/is-core/lib: /home/saba/workspaces/ramen_robot_ws/install/is-core/lib/libis-core.so.3.1.0 /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0 

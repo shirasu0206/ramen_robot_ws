@@ -97,7 +97,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"executables\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -170,19 +170,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named xtypes-ext
-
-# Build rule for target.
-xtypes-ext: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xtypes-ext
-.PHONY : xtypes-ext
-
-# fast build rule for target.
-xtypes-ext/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xtypes-ext.dir/build.make CMakeFiles/xtypes-ext.dir/build
-.PHONY : xtypes-ext/fast
 
 #=============================================================================
 # Target rules for targets named is-core
@@ -831,7 +818,6 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... xtypes-ext"
 	@echo "... integration-service"
 	@echo "... is-core"
 	@echo "... src/Config.o"

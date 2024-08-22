@@ -54,8 +54,7 @@ endif()
 add_library(is::is-core SHARED IMPORTED)
 
 set_target_properties(is::is-core PROPERTIES
-  INTERFACE_COMPILE_FEATURES "cxx_std_17;cxx_variadic_macros"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/saba/workspaces/ramen_robot_ws/install/is-core/xtypes/include;/home/saba/workspaces/ramen_robot_ws/install/is-core/xtypes/thirdparty/cpp-peglib/include;${_IMPORT_PREFIX}/include"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
   INTERFACE_LINK_LIBRARIES "yaml-cpp;\$<TARGET_NAME_IF_EXISTS:xtypes>"
 )
 
