@@ -1,0 +1,24 @@
+[7.518s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/src/agv': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/agv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/agv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/agv build --build-base /home/saba/workspaces/ramen_robot_ws/build/agv/build install --record /home/saba/workspaces/ramen_robot_ws/build/agv/install.log --single-version-externally-managed install_data
+[8.919s] running egg_info
+[9.020s] writing ../../build/agv/agv.egg-info/PKG-INFO
+[9.094s] writing dependency_links to ../../build/agv/agv.egg-info/dependency_links.txt
+[9.307s] writing entry points to ../../build/agv/agv.egg-info/entry_points.txt
+[9.455s] writing requirements to ../../build/agv/agv.egg-info/requires.txt
+[9.525s] writing top-level names to ../../build/agv/agv.egg-info/top_level.txt
+[9.658s] reading manifest file '../../build/agv/agv.egg-info/SOURCES.txt'
+[9.659s] writing manifest file '../../build/agv/agv.egg-info/SOURCES.txt'
+[9.660s] running build
+[9.660s] running build_py
+[9.660s] running install
+[9.668s] running install_lib
+[9.770s] running install_data
+[9.770s] running install_egg_info
+[9.874s] removing '/home/saba/workspaces/ramen_robot_ws/install/agv/lib/python3.10/site-packages/agv-0.0.0-py3.10.egg-info' (and everything under it)
+[9.874s] Copying ../../build/agv/agv.egg-info to /home/saba/workspaces/ramen_robot_ws/install/agv/lib/python3.10/site-packages/agv-0.0.0-py3.10.egg-info
+[9.876s] running install_scripts
+[10.092s] Installing agv1_node script to /home/saba/workspaces/ramen_robot_ws/install/agv/lib/agv
+[10.092s] Installing agv2_node script to /home/saba/workspaces/ramen_robot_ws/install/agv/lib/agv
+[10.092s] Installing agv3_node script to /home/saba/workspaces/ramen_robot_ws/install/agv/lib/agv
+[10.092s] Installing agv_commander_node script to /home/saba/workspaces/ramen_robot_ws/install/agv/lib/agv
+[10.093s] writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/agv/install.log'
+[10.133s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/src/agv' returned '0': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/agv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/agv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/agv build --build-base /home/saba/workspaces/ramen_robot_ws/build/agv/build install --record /home/saba/workspaces/ramen_robot_ws/build/agv/install.log --single-version-externally-managed install_data

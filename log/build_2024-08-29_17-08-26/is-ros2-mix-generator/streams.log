@@ -1,0 +1,157 @@
+[0.008s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2:/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/myagv_ws/install/apriltag:/home/saba/workspaces/myagv_ws/install/myagv_slam:/home/saba/workspaces/myagv_ws/install/myagv_navigation:/home/saba/workspaces/myagv_ws/install/myagv_joy:/home/saba/workspaces/myagv_ws/install/myagv_communication:/home/saba/workspaces/myagv_ws/install/myagv_bringup:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch:/home/saba/workspaces/ramen_robot_ws/install/ur5:/home/saba/workspaces/ramen_robot_ws/install/ur3:/home/saba/workspaces/ramen_robot_ws/install/agv:/home/saba/workspaces/ramen_robot_ws/install/accountant:/home/saba/ramen_robot_ws/install/ramen_robot_launch:/home/saba/ramen_robot_ws/install/usb_cam:/home/saba/ramen_robot_ws/install/ur5_controller:/home/saba/ramen_robot_ws/install/ur3_controller:/home/saba/ramen_robot_ws/install/pork_yolo:/home/saba/ramen_robot_ws/install/image_recognition:/home/saba/ramen_robot_ws/install/depth_anything:/home/saba/ramen_robot_ws/install/agv_commander:/home/saba/ramen_robot_ws/install/agv3:/home/saba/ramen_robot_ws/install/agv2:/home/saba/ramen_robot_ws/install/agv1:/home/saba/ramen_robot_ws/install/accountant:/opt/ros/humble LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib:/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/utils/ros2-mix-generator -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.334s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.470s] -- Detecting CXX compiler ABI info - done
+[0.493s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.494s] -- Detecting CXX compile features
+[0.495s] -- Detecting CXX compile features - done
+[0.580s] -- Found rosidl_parser: 3.1.5 (/opt/ros/humble/share/rosidl_parser/cmake)
+[0.599s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.655s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.021s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.039s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.063s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.262s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.273s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.337s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.385s] -- Looking for pthread.h
+[2.510s] -- Looking for pthread.h - found
+[2.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.632s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.635s] -- Found Threads: TRUE  
+[3.056s] -- Could not find [ros2] mix for package [std_msgs] required by [the user]. The [ros2] mix for [std_msgs] will be automatically generated.
+[3.084s] -- Could not find [ros2] mix for package [builtin_interfaces] required by [std_msgs]. The [ros2] mix for [builtin_interfaces] will be automatically generated.
+[3.247s] -- Configuring [std_msgs] mix library for [ros2] middleware
+[4.602s] -- Configuring [builtin_interfaces] mix library for [ros2] middleware
+[4.819s] -- Configuring done
+[4.990s] -- Generating done
+[4.993s] -- Build files have been written to: /home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator
+[5.006s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2:/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/myagv_ws/install/apriltag:/home/saba/workspaces/myagv_ws/install/myagv_slam:/home/saba/workspaces/myagv_ws/install/myagv_navigation:/home/saba/workspaces/myagv_ws/install/myagv_joy:/home/saba/workspaces/myagv_ws/install/myagv_communication:/home/saba/workspaces/myagv_ws/install/myagv_bringup:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch:/home/saba/workspaces/ramen_robot_ws/install/ur5:/home/saba/workspaces/ramen_robot_ws/install/ur3:/home/saba/workspaces/ramen_robot_ws/install/agv:/home/saba/workspaces/ramen_robot_ws/install/accountant:/home/saba/ramen_robot_ws/install/ramen_robot_launch:/home/saba/ramen_robot_ws/install/usb_cam:/home/saba/ramen_robot_ws/install/ur5_controller:/home/saba/ramen_robot_ws/install/ur3_controller:/home/saba/ramen_robot_ws/install/pork_yolo:/home/saba/ramen_robot_ws/install/image_recognition:/home/saba/ramen_robot_ws/install/depth_anything:/home/saba/ramen_robot_ws/install/agv_commander:/home/saba/ramen_robot_ws/install/agv3:/home/saba/ramen_robot_ws/install/agv2:/home/saba/ramen_robot_ws/install/agv1:/home/saba/ramen_robot_ws/install/accountant:/opt/ros/humble LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib:/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/utils/ros2-mix-generator -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator
+[5.010s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2:/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/myagv_ws/install/apriltag:/home/saba/workspaces/myagv_ws/install/myagv_slam:/home/saba/workspaces/myagv_ws/install/myagv_navigation:/home/saba/workspaces/myagv_ws/install/myagv_joy:/home/saba/workspaces/myagv_ws/install/myagv_communication:/home/saba/workspaces/myagv_ws/install/myagv_bringup:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch:/home/saba/workspaces/ramen_robot_ws/install/ur5:/home/saba/workspaces/ramen_robot_ws/install/ur3:/home/saba/workspaces/ramen_robot_ws/install/agv:/home/saba/workspaces/ramen_robot_ws/install/accountant:/home/saba/ramen_robot_ws/install/ramen_robot_launch:/home/saba/ramen_robot_ws/install/usb_cam:/home/saba/ramen_robot_ws/install/ur5_controller:/home/saba/ramen_robot_ws/install/ur3_controller:/home/saba/ramen_robot_ws/install/pork_yolo:/home/saba/ramen_robot_ws/install/image_recognition:/home/saba/ramen_robot_ws/install/depth_anything:/home/saba/ramen_robot_ws/install/agv_commander:/home/saba/ramen_robot_ws/install/agv3:/home/saba/ramen_robot_ws/install/agv2:/home/saba/ramen_robot_ws/install/agv1:/home/saba/ramen_robot_ws/install/accountant:/opt/ros/humble LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib:/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator -- -j16 -l16
+[5.088s] [  2%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-builtin_interfaces-mix.dir/is/rosidl/ros2/builtin_interfaces/src/msg/convert__msg__Time.cpp.o[0m
+[5.088s] [  5%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-builtin_interfaces-mix.dir/is/rosidl/ros2/builtin_interfaces/src/msg/convert__msg__Duration.cpp.o[0m
+[31.116s] [  8%] [32m[1mLinking CXX shared library is/rosidl/ros2/lib/libis-rosidl-ros2-builtin_interfaces-mix.so[0m
+[33.271s] [  8%] Built target is-rosidl-ros2-builtin_interfaces-mix
+[33.317s] [ 14%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Bool.cpp.o[0m
+[33.317s] [ 14%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Empty.cpp.o[0m
+[33.317s] [ 20%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Char.cpp.o[0m
+[33.317s] [ 20%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__ByteMultiArray.cpp.o[0m
+[33.317s] [ 23%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Byte.cpp.o[0m
+[33.318s] [ 26%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__ColorRGBA.cpp.o[0m
+[33.318s] [ 32%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Float32.cpp.o[0m
+[33.318s] [ 32%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Float32MultiArray.cpp.o[0m
+[33.318s] [ 35%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Float64MultiArray.cpp.o[0m
+[33.318s] [ 38%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Float64.cpp.o[0m
+[33.319s] [ 41%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Header.cpp.o[0m
+[33.319s] [ 44%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int16MultiArray.cpp.o[0m
+[33.320s] [ 50%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int32.cpp.o[0m
+[33.320s] [ 50%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int16.cpp.o[0m
+[33.320s] [ 52%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int32MultiArray.cpp.o[0m
+[33.321s] [ 55%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int64.cpp.o[0m
+[78.718s] [ 58%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int64MultiArray.cpp.o[0m
+[78.815s] [ 61%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int8.cpp.o[0m
+[78.944s] [ 64%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__Int8MultiArray.cpp.o[0m
+[79.127s] [ 67%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__MultiArrayDimension.cpp.o[0m
+[80.685s] [ 70%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__MultiArrayLayout.cpp.o[0m
+[80.955s] [ 73%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__String.cpp.o[0m
+[81.127s] [ 76%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt16.cpp.o[0m
+[81.385s] [ 79%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt16MultiArray.cpp.o[0m
+[82.231s] [ 82%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt32.cpp.o[0m
+[82.901s] [ 85%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt32MultiArray.cpp.o[0m
+[83.066s] [ 88%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt64.cpp.o[0m
+[83.370s] [ 91%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt64MultiArray.cpp.o[0m
+[83.392s] [ 94%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt8.cpp.o[0m
+[83.541s] [ 97%] [32mBuilding CXX object CMakeFiles/is-rosidl-ros2-std_msgs-mix.dir/is/rosidl/ros2/std_msgs/src/msg/convert__msg__UInt8MultiArray.cpp.o[0m
+[126.735s] [100%] [32m[1mLinking CXX shared library is/rosidl/ros2/lib/libis-rosidl-ros2-std_msgs-mix.so[0m
+[162.740s] [100%] Built target is-rosidl-ros2-std_msgs-mix
+[162.756s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2:/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/myagv_ws/install/apriltag:/home/saba/workspaces/myagv_ws/install/myagv_slam:/home/saba/workspaces/myagv_ws/install/myagv_navigation:/home/saba/workspaces/myagv_ws/install/myagv_joy:/home/saba/workspaces/myagv_ws/install/myagv_communication:/home/saba/workspaces/myagv_ws/install/myagv_bringup:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch:/home/saba/workspaces/ramen_robot_ws/install/ur5:/home/saba/workspaces/ramen_robot_ws/install/ur3:/home/saba/workspaces/ramen_robot_ws/install/agv:/home/saba/workspaces/ramen_robot_ws/install/accountant:/home/saba/ramen_robot_ws/install/ramen_robot_launch:/home/saba/ramen_robot_ws/install/usb_cam:/home/saba/ramen_robot_ws/install/ur5_controller:/home/saba/ramen_robot_ws/install/ur3_controller:/home/saba/ramen_robot_ws/install/pork_yolo:/home/saba/ramen_robot_ws/install/image_recognition:/home/saba/ramen_robot_ws/install/depth_anything:/home/saba/ramen_robot_ws/install/agv_commander:/home/saba/ramen_robot_ws/install/agv3:/home/saba/ramen_robot_ws/install/agv2:/home/saba/ramen_robot_ws/install/agv1:/home/saba/ramen_robot_ws/install/accountant:/opt/ros/humble LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib:/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator -- -j16 -l16
+[162.914s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2:/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/myagv_ws/install/apriltag:/home/saba/workspaces/myagv_ws/install/myagv_slam:/home/saba/workspaces/myagv_ws/install/myagv_navigation:/home/saba/workspaces/myagv_ws/install/myagv_joy:/home/saba/workspaces/myagv_ws/install/myagv_communication:/home/saba/workspaces/myagv_ws/install/myagv_bringup:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch:/home/saba/workspaces/ramen_robot_ws/install/ur5:/home/saba/workspaces/ramen_robot_ws/install/ur3:/home/saba/workspaces/ramen_robot_ws/install/agv:/home/saba/workspaces/ramen_robot_ws/install/accountant:/home/saba/ramen_robot_ws/install/ramen_robot_launch:/home/saba/ramen_robot_ws/install/usb_cam:/home/saba/ramen_robot_ws/install/ur5_controller:/home/saba/ramen_robot_ws/install/ur3_controller:/home/saba/ramen_robot_ws/install/pork_yolo:/home/saba/ramen_robot_ws/install/image_recognition:/home/saba/ramen_robot_ws/install/depth_anything:/home/saba/ramen_robot_ws/install/agv_commander:/home/saba/ramen_robot_ws/install/agv3:/home/saba/ramen_robot_ws/install/agv2:/home/saba/ramen_robot_ws/install/agv1:/home/saba/ramen_robot_ws/install/accountant:/opt/ros/humble LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib:/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator
+[162.926s] -- Install configuration: ""
+[162.926s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/libis-rosidl-ros2-std_msgs-mix.so
+[163.072s] -- Set runtime path of "/home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/libis-rosidl-ros2-std_msgs-mix.so" to ""
+[163.072s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is
+[163.073s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2
+[163.073s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg
+[163.073s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs
+[163.073s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int8.mix
+[163.074s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float64MultiArray.mix
+[163.074s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int64MultiArray.mix
+[163.074s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int8MultiArray.mix
+[163.074s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Char.mix
+[163.074s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int64.mix
+[163.075s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float32MultiArray.mix
+[163.075s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/String.mix
+[163.075s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt32MultiArray.mix
+[163.075s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/MultiArrayLayout.mix
+[163.075s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt64.mix
+[163.075s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt8MultiArray.mix
+[163.076s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int32MultiArray.mix
+[163.076s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt16.mix
+[163.076s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int32.mix
+[163.076s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt32.mix
+[163.076s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Bool.mix
+[163.076s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt64MultiArray.mix
+[163.077s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float64.mix
+[163.077s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Empty.mix
+[163.077s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt8.mix
+[163.077s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int16MultiArray.mix
+[163.077s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/ByteMultiArray.mix
+[163.078s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float32.mix
+[163.078s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/ColorRGBA.mix
+[163.078s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int16.mix
+[163.078s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/MultiArrayDimension.mix
+[163.078s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt16MultiArray.mix
+[163.078s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Byte.mix
+[163.078s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Header.mix
+[163.079s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/builtin_interfaces
+[163.079s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/builtin_interfaces/Time.mix
+[163.079s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/builtin_interfaces/Duration.mix
+[163.079s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/libis-rosidl-ros2-builtin_interfaces-mix.so
+[163.100s] -- Set runtime path of "/home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/libis-rosidl-ros2-builtin_interfaces-mix.so" to ""
+[163.100s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is
+[163.100s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2
+[163.100s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg
+[163.101s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs
+[163.101s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int8.mix
+[163.101s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float64MultiArray.mix
+[163.101s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int64MultiArray.mix
+[163.101s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int8MultiArray.mix
+[163.101s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Char.mix
+[163.101s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int64.mix
+[163.102s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float32MultiArray.mix
+[163.102s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/String.mix
+[163.102s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt32MultiArray.mix
+[163.102s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/MultiArrayLayout.mix
+[163.102s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt64.mix
+[163.102s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt8MultiArray.mix
+[163.103s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int32MultiArray.mix
+[163.103s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt16.mix
+[163.103s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int32.mix
+[163.104s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt32.mix
+[163.104s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Bool.mix
+[163.104s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt64MultiArray.mix
+[163.105s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float64.mix
+[163.105s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Empty.mix
+[163.105s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt8.mix
+[163.105s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int16MultiArray.mix
+[163.106s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/ByteMultiArray.mix
+[163.107s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Float32.mix
+[163.107s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/ColorRGBA.mix
+[163.107s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Int16.mix
+[163.108s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/MultiArrayDimension.mix
+[163.108s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/UInt16MultiArray.mix
+[163.108s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Byte.mix
+[163.109s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/std_msgs/Header.mix
+[163.109s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/builtin_interfaces
+[163.109s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/builtin_interfaces/Time.mix
+[163.109s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/is/ros2/msg/builtin_interfaces/Duration.mix
+[163.109s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2-mix-generator/lib/cmake/is-ros2-mix-generator/is-ros2-mix-generatorConfig.cmake
+[163.110s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2:/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/myagv_ws/install/apriltag:/home/saba/workspaces/myagv_ws/install/myagv_slam:/home/saba/workspaces/myagv_ws/install/myagv_navigation:/home/saba/workspaces/myagv_ws/install/myagv_joy:/home/saba/workspaces/myagv_ws/install/myagv_communication:/home/saba/workspaces/myagv_ws/install/myagv_bringup:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch:/home/saba/workspaces/ramen_robot_ws/install/ur5:/home/saba/workspaces/ramen_robot_ws/install/ur3:/home/saba/workspaces/ramen_robot_ws/install/agv:/home/saba/workspaces/ramen_robot_ws/install/accountant:/home/saba/ramen_robot_ws/install/ramen_robot_launch:/home/saba/ramen_robot_ws/install/usb_cam:/home/saba/ramen_robot_ws/install/ur5_controller:/home/saba/ramen_robot_ws/install/ur3_controller:/home/saba/ramen_robot_ws/install/pork_yolo:/home/saba/ramen_robot_ws/install/image_recognition:/home/saba/ramen_robot_ws/install/depth_anything:/home/saba/ramen_robot_ws/install/agv_commander:/home/saba/ramen_robot_ws/install/agv3:/home/saba/ramen_robot_ws/install/agv2:/home/saba/ramen_robot_ws/install/agv1:/home/saba/ramen_robot_ws/install/accountant:/opt/ros/humble LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib:/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-ros2-mix-generator

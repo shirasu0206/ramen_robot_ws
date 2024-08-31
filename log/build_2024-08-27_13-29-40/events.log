@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (-) JobUnselected: {'identifier': 'accountant'}
+[0.000712] (-) JobUnselected: {'identifier': 'agv'}
+[0.000746] (-) JobUnselected: {'identifier': 'dinov2'}
+[0.000774] (-) JobUnselected: {'identifier': 'ramen_robot_launch'}
+[0.000806] (-) JobUnselected: {'identifier': 'ur5'}
+[0.000835] (ur3) JobQueued: {'identifier': 'ur3', 'dependencies': OrderedDict()}
+[0.000867] (ur3) JobStarted: {'identifier': 'ur3'}
+[0.099570] (-) TimerEvent: {}
+[0.199984] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.400839] (-) TimerEvent: {}
+[0.501278] (-) TimerEvent: {}
+[0.601711] (-) TimerEvent: {}
+[0.702130] (-) TimerEvent: {}
+[0.802538] (-) TimerEvent: {}
+[0.903271] (-) TimerEvent: {}
+[1.003732] (-) TimerEvent: {}
+[1.104062] (-) TimerEvent: {}
+[1.204382] (-) TimerEvent: {}
+[1.304785] (-) TimerEvent: {}
+[1.405200] (-) TimerEvent: {}
+[1.505659] (-) TimerEvent: {}
+[1.606045] (-) TimerEvent: {}
+[1.706486] (-) TimerEvent: {}
+[1.806968] (-) TimerEvent: {}
+[1.907372] (-) TimerEvent: {}
+[2.007760] (-) TimerEvent: {}
+[2.108129] (-) TimerEvent: {}
+[2.208479] (-) TimerEvent: {}
+[2.308885] (-) TimerEvent: {}
+[2.409313] (-) TimerEvent: {}
+[2.509706] (-) TimerEvent: {}
+[2.610087] (-) TimerEvent: {}
+[2.652575] (ur3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ur3', 'build', '--build-base', '/home/saba/workspaces/ramen_robot_ws/build/ur3/build', 'install', '--record', '/home/saba/workspaces/ramen_robot_ws/build/ur3/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/saba/workspaces/ramen_robot_ws/src/ur3', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'saba', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saba/workspaces/myagv_ws/install/apriltag_ros/lib:/home/saba/workspaces/myagv_ws/install/apriltag/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/saba', 'OLDPWD': '/home/saba/workspaces/ramen_robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1617', 'SYSTEMD_EXEC_PID': '1785', 'UNZIP': '-O CP932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2671', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saba/workspaces/ramen_robot_ws/install:/home/saba/workspaces/myagv_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'saba', 'JOURNAL_STREAM': '8:19962', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/saba/workspaces/myagv_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/saba/workspaces/myagv_ws/install/apriltag/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saba', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/saba/workspaces/ramen_robot_ws/src/ramen_robot_gazebo/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/saba/workspaces/myagv_ws/install/apriltag/bin:/opt/ros/humble/bin:/home/saba/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/saba-pc:@/tmp/.ICE-unix/1755,unix/saba-pc:/tmp/.ICE-unix/1755', 'INVOCATION_ID': 'd02903d4bc174138b34b8fd0742d7976', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V9RZS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_slam:/home/saba/workspaces/myagv_ws/install/myagv_navigation:/home/saba/workspaces/myagv_ws/install/myagv_joy:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/myagv_communication:/home/saba/workspaces/myagv_ws/install/myagv_bringup:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch:/home/saba/workspaces/ramen_robot_ws/install/ur5:/home/saba/workspaces/ramen_robot_ws/install/ur3:/home/saba/workspaces/ramen_robot_ws/install/agv:/home/saba/workspaces/ramen_robot_ws/install/accountant:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c710f821-5c46-49eb-8cc8-3ffe1ad5c0c4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saba/workspaces/ramen_robot_ws/build/ur3', 'ZIPINFO': '-O CP932', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/opt/ros/humble/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saba/workspaces/ramen_robot_ws/build/ur3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages:/home/saba/workspaces/myagv_ws/install/myagv_slam/lib/python3.10/site-packages:/home/saba/workspaces/myagv_ws/install/myagv_navigation/lib/python3.10/site-packages:/home/saba/workspaces/myagv_ws/install/myagv_joy/lib/python3.10/site-packages:/home/saba/workspaces/myagv_ws/install/myagv_communication/lib/python3.10/site-packages:/home/saba/workspaces/myagv_ws/install/myagv_bringup/lib/python3.10/site-packages:/home/saba/workspaces/myagv_ws/install/apriltag/lib/python3.10/site-packages:/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/lib/python3.10/site-packages:/home/saba/workspaces/ramen_robot_ws/install/ur5/lib/python3.10/site-packages:/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages:/home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages:/home/saba/workspaces/ramen_robot_ws/install/agv/lib/python3.10/site-packages:/home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/saba/workspaces/myagv_ws/install/sllidar_ros2:/home/saba/workspaces/myagv_ws/install/myagv_description:/home/saba/workspaces/myagv_ws/install/apriltag_ros:/home/saba/workspaces/myagv_ws/install/apriltag:/home/saba/workspaces/ramen_robot_ws/install/xtypes'}, 'shell': False}
+[2.710183] (-) TimerEvent: {}
+[2.810508] (-) TimerEvent: {}
+[2.910861] (-) TimerEvent: {}
+[3.011126] (-) TimerEvent: {}
+[3.111393] (-) TimerEvent: {}
+[3.211679] (-) TimerEvent: {}
+[3.311976] (-) TimerEvent: {}
+[3.412218] (-) TimerEvent: {}
+[3.512438] (-) TimerEvent: {}
+[3.612657] (-) TimerEvent: {}
+[3.712903] (-) TimerEvent: {}
+[3.813134] (-) TimerEvent: {}
+[3.907805] (ur3) StdoutLine: {'line': b'running egg_info\n'}
+[3.908517] (ur3) StdoutLine: {'line': b'creating ../../build/ur3/ur3.egg-info\n'}
+[3.913217] (-) TimerEvent: {}
+[3.998315] (ur3) StdoutLine: {'line': b'writing ../../build/ur3/ur3.egg-info/PKG-INFO\n'}
+[4.013303] (-) TimerEvent: {}
+[4.063031] (ur3) StdoutLine: {'line': b'writing dependency_links to ../../build/ur3/ur3.egg-info/dependency_links.txt\n'}
+[4.113386] (-) TimerEvent: {}
+[4.213634] (-) TimerEvent: {}
+[4.265746] (ur3) StdoutLine: {'line': b'writing entry points to ../../build/ur3/ur3.egg-info/entry_points.txt\n'}
+[4.313700] (-) TimerEvent: {}
+[4.390396] (ur3) StdoutLine: {'line': b'writing requirements to ../../build/ur3/ur3.egg-info/requires.txt\n'}
+[4.413811] (-) TimerEvent: {}
+[4.457592] (ur3) StdoutLine: {'line': b'writing top-level names to ../../build/ur3/ur3.egg-info/top_level.txt\n'}
+[4.457878] (ur3) StdoutLine: {'line': b"writing manifest file '../../build/ur3/ur3.egg-info/SOURCES.txt'\n"}
+[4.513882] (-) TimerEvent: {}
+[4.574466] (ur3) StdoutLine: {'line': b"reading manifest file '../../build/ur3/ur3.egg-info/SOURCES.txt'\n"}
+[4.575436] (ur3) StdoutLine: {'line': b"writing manifest file '../../build/ur3/ur3.egg-info/SOURCES.txt'\n"}
+[4.575727] (ur3) StdoutLine: {'line': b'running build\n'}
+[4.575922] (ur3) StdoutLine: {'line': b'running build_py\n'}
+[4.576136] (ur3) StdoutLine: {'line': b'creating /home/saba/workspaces/ramen_robot_ws/build/ur3/build\n'}
+[4.576370] (ur3) StdoutLine: {'line': b'creating /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib\n'}
+[4.576534] (ur3) StdoutLine: {'line': b'creating /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.576774] (ur3) StdoutLine: {'line': b'copying ur3/ur3_soup_node.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.576945] (ur3) StdoutLine: {'line': b'copying ur3/dpt.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.577099] (ur3) StdoutLine: {'line': b'copying ur3/depth_anything_node.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.577297] (ur3) StdoutLine: {'line': b'copying ur3/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.577501] (ur3) StdoutLine: {'line': b'copying ur3/ur3_negi_node.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.577731] (ur3) StdoutLine: {'line': b'copying ur3/transform.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.577901] (ur3) StdoutLine: {'line': b'copying ur3/ur3_retouch.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.578123] (ur3) StdoutLine: {'line': b'copying ur3/blocks.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3\n'}
+[4.578391] (ur3) StdoutLine: {'line': b'running install\n'}
+[4.585134] (ur3) StdoutLine: {'line': b'running install_lib\n'}
+[4.613967] (-) TimerEvent: {}
+[4.672156] (ur3) StdoutLine: {'line': b'creating /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.672421] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/ur3_soup_node.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.672677] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/dpt.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.672879] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/depth_anything_node.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.673041] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.673257] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/ur3_negi_node.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.673419] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/transform.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.673626] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/ur3_retouch.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.673820] (ur3) StdoutLine: {'line': b'copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/blocks.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3\n'}
+[4.674412] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/ur3_soup_node.py to ur3_soup_node.cpython-310.pyc\n'}
+[4.675512] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/dpt.py to dpt.cpython-310.pyc\n'}
+[4.677230] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/depth_anything_node.py to depth_anything_node.cpython-310.pyc\n'}
+[4.679493] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__init__.py to __init__.cpython-310.pyc\n'}
+[4.679754] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/ur3_negi_node.py to ur3_negi_node.cpython-310.pyc\n'}
+[4.681034] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/transform.py to transform.cpython-310.pyc\n'}
+[4.682496] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/ur3_retouch.py to ur3_retouch.cpython-310.pyc\n'}
+[4.683263] (ur3) StdoutLine: {'line': b'byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/blocks.py to blocks.cpython-310.pyc\n'}
+[4.684377] (ur3) StdoutLine: {'line': b'running install_data\n'}
+[4.684695] (ur3) StdoutLine: {'line': b'creating /home/saba/workspaces/ramen_robot_ws/install/ur3/share/ament_index\n'}
+[4.684859] (ur3) StdoutLine: {'line': b'creating /home/saba/workspaces/ramen_robot_ws/install/ur3/share/ament_index/resource_index\n'}
+[4.685021] (ur3) StdoutLine: {'line': b'creating /home/saba/workspaces/ramen_robot_ws/install/ur3/share/ament_index/resource_index/packages\n'}
+[4.685178] (ur3) StdoutLine: {'line': b'copying resource/ur3 -> /home/saba/workspaces/ramen_robot_ws/install/ur3/share/ament_index/resource_index/packages\n'}
+[4.685403] (ur3) StdoutLine: {'line': b'copying package.xml -> /home/saba/workspaces/ramen_robot_ws/install/ur3/share/ur3\n'}
+[4.685549] (ur3) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.714059] (-) TimerEvent: {}
+[4.785392] (ur3) StdoutLine: {'line': b'Copying ../../build/ur3/ur3.egg-info to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3-0.0.0-py3.10.egg-info\n'}
+[4.786565] (ur3) StdoutLine: {'line': b'running install_scripts\n'}
+[4.814145] (-) TimerEvent: {}
+[4.914409] (-) TimerEvent: {}
+[4.987072] (ur3) StdoutLine: {'line': b'Installing depth_anything_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3\n'}
+[4.987403] (ur3) StdoutLine: {'line': b'Installing ur3_negi_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3\n'}
+[4.987566] (ur3) StdoutLine: {'line': b'Installing ur3_retouch_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3\n'}
+[4.987777] (ur3) StdoutLine: {'line': b'Installing ur3_soup_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3\n'}
+[4.988193] (ur3) StdoutLine: {'line': b"writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/ur3/install.log'\n"}
+[5.014518] (-) TimerEvent: {}
+[5.017836] (ur3) CommandEnded: {'returncode': 0}
+[5.040993] (ur3) JobEnded: {'identifier': 'ur3', 'rc': 0}
+[5.042322] (-) EventReactorShutdown: {}

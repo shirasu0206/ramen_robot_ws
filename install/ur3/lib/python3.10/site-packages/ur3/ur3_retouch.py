@@ -1,10 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
 from std_msgs.msg import String, Int32
-from cv_bridge import CvBridge
-import cv2
-import threading
 
 class UR3RetouchNode(Node):
     def __init__(self):
@@ -13,6 +9,7 @@ class UR3RetouchNode(Node):
         self.publisher_ur3 = self.create_publisher(Int32, 'ur3_order_count', 10)
         self.forward_to_ur3()
         self.send_ur3_signal()
+        
     def forward_to_ur3(self):
         order_msg = Int32()
         order_msg.data = 2
@@ -21,7 +18,7 @@ class UR3RetouchNode(Node):
         
     def send_ur3_signal(self):
         msg = String()
-        msg.data = f"agv arrived at E with 2 orders"
+        msg.data = "agv arrived at E with 2 orders"
         self.publisher_ur3_order.publish(msg)
         self.get_logger().info(f'Sent UR3 signal: {msg.data}')
   
@@ -34,4 +31,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-

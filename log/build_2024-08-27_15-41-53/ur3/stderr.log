@@ -1,0 +1,5 @@
+  File "/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/ur3_negi_node.py", line 55
+    def
+       ^
+SyntaxError: invalid syntax
+

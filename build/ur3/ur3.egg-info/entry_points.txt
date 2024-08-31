@@ -1,5 +1,6 @@
 [console_scripts]
 depth_anything_node = ur3.depth_anything_node:main
+hello_node = ur3.hello_node:main
 ur3_negi_node = ur3.ur3_negi_node:main
 ur3_retouch_node = ur3.ur3_retouch_node:main
 ur3_soup_node = ur3.ur3_soup_node:main

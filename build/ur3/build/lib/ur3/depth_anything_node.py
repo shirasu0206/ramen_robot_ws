@@ -8,25 +8,27 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import sys, io
 import argparse  
+import math
 from datetime import datetime
-from depth_anything.dpt import DepthAnything
-from depth_anything.transform import Resize, NormalizeImage, PrepareForNet
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float32
+from std_msgs.msg import Float32, Int32
+from depth_anything.transform import Resize, NormalizeImage, PrepareForNet
+from depth_anything.dpt import DepthAnything
 
-class Negi(Node):
+class DepthAnythingNode(Node):
     
     def __init__(self):
         super().__init__('depth_anything_node')
         self.publisher_depth = self.create_publisher(Float32, 'negi_depth', 10)
+        self.publisher_posN = self.create_publisher(Int32, 'posN',10)
         self.timer = self.create_timer(5.0, self.timer_callback)
         self.time = None 
         self.frame = self.cropped_frame = None
-        self.y_min , self.y_max = 130 , 310
-        self.x_min , self.x_max = 220 , 320
+        self.y_min , self.y_max = 160 , 360
+        self.x_min , self.x_max = 240 , 400
         self.yc_min = self.yc_max = self.xc_min = self.xc_max = None
-        self.Cam_to_Plate , self.Top_to_Plate= 0.556 , 0.105
+        self.Cam_to_Plate , self.Top_to_Plate= 0.555 , 0.105
         self.indir = self.outdir = None
         self.depth = self.depth_abs = self.depth_calc = None
         self.DEPTH = None 
@@ -44,7 +46,13 @@ class Negi(Node):
         depth_msg = Float32()
         depth_msg.data = self.DEPTH
         self.publisher_depth.publish(depth_msg)
+        
+        posN_msg = Int32()
+        posN_msg.data = self.posN
+        self.publisher_posN.publish(posN_msg)
+        
         self.get_logger().info(f'ネギの平均深さ：{self.DEPTH}')
+        self.get_logger().info(f'最も浅い位置ナンバー: {self.posN}')
     
     def loading(self, dir):
         if os.path.isfile(dir):
@@ -61,7 +69,6 @@ class Negi(Node):
         os.makedirs(self.indir, exist_ok=True)
         os.makedirs(self.outdir, exist_ok=True)
         cv2.imwrite(os.path.join(self.indir, self.time.strftime("%H%M%S") + ext), subject)
-        #self.get_logger().info(f"Image captured and saved successfully at: {self.indir}")
     
     def capture(self, cam_number):
         cap = cv2.VideoCapture(cam_number)
@@ -78,13 +85,11 @@ class Negi(Node):
         cap.release()
 
     def dep_any(self, subject):
-        #self.get_logger().info(f"Processing image at {self.time}")
         self.loading(subject)
         parser = argparse.ArgumentParser()
         parser.add_argument('--encoder', type=str, default='vitl', choices=['vits', 'vitb', 'vitl'])
         args = parser.parse_args(['--encoder', 'vitl'])
         DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
-        #self.get_logger().info(f"Using device: {DEVICE}")
         depth_anything = DepthAnything.from_pretrained('LiheYoung/depth_anything_{}14'.format(args.encoder)).to(DEVICE).eval()
         transform = Compose([Resize(518, 518, False, True, 14, 'lower_bound', cv2.INTER_CUBIC),
                         NormalizeImage([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]), PrepareForNet()])
@@ -114,23 +119,25 @@ class Negi(Node):
             self.edge(self.outdir)
             self.depth_calc = self.trimming(self.yc_min, self.yc_max, self.xc_min, self.xc_max, self.depth_abs)
             width = self.xc_max - self.xc_min
-            hight = self.yc_max - self.yc_min
-            area0 = self.trimming()
-            area1 = self.trimming()
-            area2 = self.trimming()
-            area3 = self.trimming()
-            area4 = self.trimming()
+            wb = math.floor(wb/10)
+            hight = self.yc_max - self.xc_min
+            hb = math.floor(hb/10)
+            area0 = self.trimming(hb,9*hb,wb,9*wb,self.depth_calc)
+            area1 = self.trimming(0,3*hb,w,9*wb,self.depth_calc)
+            area4 = self.trimming(hb,9*hb,7*wb,10*wb,self.depth_calc)
+            area2 = self.trimming(7*hb,10*hb,wb,9*hb,self.depth_calc)
+            area3 = self.trimming(hb,9*hb,0,3*hb,self.depth_calc)
+            a = [area0.mean().item(),area1.mean().item(),area4.mean().item(),area2.mean().item(),area3.mean().item()]
+            self.slectD,self.posN = min(a),index(min(a))
+            
             self.analyse_tensor(self.depth_calc)
             self.DEPTH = self.depth_calc.mean().item()
+            self.DEPTH = self.selectD
 
             max_index = self.depth_calc.argmax() 
             self.max_position = np.unravel_index(max_index.cpu().numpy(), self.depth_calc.shape)
             min_index = self.depth_calc.argmin() 
             self.min_position = np.unravel_index(min_index.cpu().numpy(), self.depth_calc.shape)
-
-            #self.get_logger().info(f"Min pos: {self.min_position}, Max pos: {self.max_position}")
-            #self.get_logger().info(f"Mean depth: {self.DEPTH}")
-            #self.get_logger().info(f"Current time: {datetime.now()}")
 
     def edge(self, subject):
         self.loading(subject)
@@ -163,7 +170,6 @@ class Negi(Node):
             plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
             path = os.path.join(subject, "edge.png")
             plt.savefig(path)
-            #self.get_logger().info("Edge detection successful")
 
     def analyse_tensor(self, subject):
         if subject.size() != 0:
@@ -173,11 +179,10 @@ class Negi(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    negi_node = Negi()
-    rclpy.spin(negi_node)
-    negi_node.destroy_node()
+    node = DepthAnythingNode()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-

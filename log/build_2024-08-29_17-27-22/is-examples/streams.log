@@ -1,0 +1,2 @@
+[5.558s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-examples -- -j16 -l16
+[5.610s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples' returned '0': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-examples -- -j16 -l16

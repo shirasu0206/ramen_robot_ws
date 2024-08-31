@@ -1,0 +1,630 @@
+[0.026s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2 -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-ros2
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.361s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.466s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.239s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.287s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.329s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.724s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.733s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.845s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.902s] -- Looking for C++ include pthread.h
+[3.042s] -- Looking for C++ include pthread.h - found
+[3.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.190s] -- Found Threads: TRUE  
+[3.388s] -- Configuring [is-ros2]...
+[3.398s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.525s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.527s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.658s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.659s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.791s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.795s] -- Configuring done
+[3.895s] -- Generating done
+[3.897s] -- Build files have been written to: /home/saba/workspaces/ramen_robot_ws/build/is-ros2
+[3.909s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2 -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-ros2
+[3.913s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-ros2 -- -j16 -l16
+[3.994s] [ 25%] [32mBuilding CXX object static/CMakeFiles/is-ros2.dir/src/Factory.cpp.o[0m
+[3.994s] [ 75%] [32mBuilding CXX object static/CMakeFiles/is-ros2.dir/src/MetaPublisher.cpp.o[0m
+[3.994s] [ 75%] [32mBuilding CXX object static/CMakeFiles/is-ros2.dir/src/SystemHandle.cpp.o[0m
+[7.857s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[7.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:37[m[K,
+[7.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[7.860s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/include/is/sh/ros2/Factory.hpp:26[m[K,
+[7.860s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/Factory.cpp:19[m[K:
+[7.860s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.860s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.860s]    71 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.861s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.861s] 
+[7.861s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.861s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.861s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.861s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.861s]    71 | char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.862s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.862s] 
+[7.862s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.862s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.862s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.862s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.863s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.864s]    71 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.864s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.864s] 
+[7.865s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.865s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.865s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.865s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.866s]    71 | char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.866s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.866s] 
+[7.866s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.866s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.866s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.866s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.867s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.867s]    71 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.867s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.867s] 
+[7.867s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.867s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.868s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.868s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.868s]    71 | char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.868s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.868s] 
+[7.868s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.868s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.869s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.869s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.869s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.869s]    80 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.869s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.869s] 
+[7.870s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.870s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.870s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.870s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.870s]    80 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.870s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.870s] 
+[7.871s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.871s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.871s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.871s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.871s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.871s]    80 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.871s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.871s] 
+[7.872s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.872s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.872s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.872s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.872s]    80 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.872s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.873s] 
+[7.873s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.873s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.873s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.873s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.873s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.873s]    80 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.874s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.874s] 
+[7.874s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.874s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.874s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.874s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.874s]    80 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.875s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.875s] 
+[7.875s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.875s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.875s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.875s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.875s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.876s]    89 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.876s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.876s] 
+[7.876s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.876s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.876s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.877s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.877s]    89 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.877s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.877s] 
+[7.877s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.877s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.877s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.878s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.878s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.878s]    89 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.878s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.878s] 
+[7.878s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.878s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.879s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.879s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.879s]    89 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.879s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.879s] 
+[7.879s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.879s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.880s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.880s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.880s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.880s]    89 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.880s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.880s] 
+[7.880s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.881s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.881s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.881s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.881s]    89 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.881s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.881s] 
+[7.882s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.882s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.882s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.882s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.882s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.882s]    98 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.882s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.882s] 
+[7.883s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.883s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.883s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.883s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.883s]    98 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.883s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.883s] 
+[7.884s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.884s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.884s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.884s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.884s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.884s]    98 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.884s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.884s] 
+[7.885s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.885s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.885s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.885s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.885s]    98 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.885s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.885s] 
+[7.886s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.886s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.886s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.886s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.886s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.886s]    98 | const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.886s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.886s] 
+[7.887s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.887s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.887s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.887s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.887s]    98 | har * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.887s]       |                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.887s] 
+[7.888s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.888s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.888s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.888s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[7.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:37[m[K,
+[7.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[7.888s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/MetaPublisher.hpp:24[m[K,
+[7.889s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/MetaPublisher.cpp:19[m[K:
+[7.889s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.889s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.889s]    71 |   InvalidNodeNameError(const char * node_name, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.889s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.889s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.890s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.890s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.890s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.890s]    71 |   InvalidNodeNameError(const char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.890s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.890s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.891s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.891s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.891s]    71 |   InvalidNodeNameError(const char * node_name, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.891s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.892s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.892s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.892s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.892s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.892s]    71 |   InvalidNodeNameError(const char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.892s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.892s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.893s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.893s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.893s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.893s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.893s]    71 |   InvalidNodeNameError(const char * node_name, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.893s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.893s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.894s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.894s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.894s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.894s]    71 |   InvalidNodeNameError(const char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.894s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.894s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.895s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.895s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.895s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.895s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.895s]    80 |   InvalidNamespaceError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.895s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.895s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.896s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.896s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.896s]    80 |   InvalidNamespaceError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.896s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.896s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.897s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.897s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.897s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.897s]    80 |   InvalidNamespaceError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.897s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.897s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.897s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.898s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.898s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.898s]    80 |   InvalidNamespaceError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.898s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.898s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.898s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.898s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.899s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.899s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.899s]    80 |   InvalidNamespaceError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.899s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.899s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.899s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.899s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.900s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.900s]    80 |   InvalidNamespaceError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.900s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.900s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.900s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.900s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.900s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.901s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.901s]    89 |   InvalidTopicNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.901s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.901s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.901s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.901s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.902s]    89 |   InvalidTopicNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.902s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.902s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.902s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.903s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.903s]    89 |   InvalidTopicNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.903s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.903s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.903s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.903s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.903s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.904s]    89 |   InvalidTopicNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.904s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.904s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.904s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.904s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.904s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.904s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.905s]    89 |   InvalidTopicNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.905s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.905s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.905s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.905s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.905s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.905s]    89 |   InvalidTopicNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.905s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.906s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.906s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.906s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.906s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.906s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.906s]    98 |   InvalidServiceNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.907s]       |                                                                            [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.907s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.907s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.907s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.907s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.907s]    98 |   InvalidServiceNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.907s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.907s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.908s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.908s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.908s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.908s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.908s]    98 |   InvalidServiceNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.908s]       |                                                                            [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.909s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.909s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.909s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.909s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.909s]    98 |   InvalidServiceNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.909s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.909s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.910s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.910s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.910s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.910s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.910s]    98 |   InvalidServiceNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.910s]       |                                                                            [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.910s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.911s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.911s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.911s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.911s]    98 |   InvalidServiceNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.911s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.911s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.911s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.912s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.941s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[7.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:37[m[K,
+[7.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.945s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/SystemHandle.hpp:24[m[K,
+[7.945s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/SystemHandle.cpp:19[m[K:
+[7.945s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.945s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.945s]    71 |   InvalidNodeNameError(const char * node_name, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.946s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.946s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.946s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.946s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.946s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.946s]    71 |   InvalidNodeNameError(const char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.946s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.947s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.947s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.947s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.947s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.947s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.947s]    71 |   InvalidNodeNameError(const char * node_name, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.948s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.948s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.948s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.948s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.948s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.948s]    71 |   InvalidNodeNameError(const char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.949s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.949s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.949s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.949s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.949s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNodeNameError::InvalidNodeNameError(const char*, const char*, size_t)[m[K’:
+[7.949s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:79:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.949s]    71 |   InvalidNodeNameError(const char * node_name, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.950s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.950s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.950s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.950s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.950s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:71:61:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNodeNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.950s]    71 |   InvalidNodeNameError(const char * node_name, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.950s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.951s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.951s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.951s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.951s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.951s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.951s]    80 |   InvalidNamespaceError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.952s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.952s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.952s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.952s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.952s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.952s]    80 |   InvalidNamespaceError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.953s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.953s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.953s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.953s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.953s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.953s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.954s]    80 |   InvalidNamespaceError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.954s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.954s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.954s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.954s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.954s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.954s]    80 |   InvalidNamespaceError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.955s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.955s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.955s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.955s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.955s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidNamespaceError::InvalidNamespaceError(const char*, const char*, size_t)[m[K’:
+[7.955s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.955s]    80 |   InvalidNamespaceError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.956s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.956s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.956s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.956s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.956s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:80:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidNamespaceError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.956s]    80 |   InvalidNamespaceError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.956s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.957s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.957s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.957s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.957s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.957s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.957s]    89 |   InvalidTopicNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.957s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.958s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.958s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.958s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.958s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.958s]    89 |   InvalidTopicNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.958s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.959s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.959s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.959s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.959s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.959s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.959s]    89 |   InvalidTopicNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.959s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.960s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.960s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.960s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.960s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.960s]    89 |   InvalidTopicNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.960s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.960s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.961s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.961s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.961s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidTopicNameError::InvalidTopicNameError(const char*, const char*, size_t)[m[K’:
+[7.961s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:81:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.961s]    89 |   InvalidTopicNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.961s]       |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.961s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.962s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.962s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.962s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:89:63:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidTopicNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.962s]    89 |   InvalidTopicNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.962s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.962s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.963s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.963s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.963s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.963s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.963s]    98 |   InvalidServiceNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.963s]       |                                                                            [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.963s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.964s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.964s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.964s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.964s]    98 |   InvalidServiceNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.964s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.964s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.964s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.965s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.965s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.965s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.965s]    98 |   InvalidServiceNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.965s]       |                                                                            [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.965s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.965s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.966s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.966s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.966s]    98 |   InvalidServiceNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.966s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.966s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.966s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.966s]       |                     [01;36m[K^~~~~~~~~[m[K
+[7.967s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:[m[K In constructor ‘[01m[Krclcpp::exceptions::InvalidServiceNameError::InvalidServiceNameError(const char*, const char*, size_t)[m[K’:
+[7.967s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:83:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kinvalid_index[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.967s]    98 |   InvalidServiceNameError(const char * namespace_, const char * error_msg, [01;35m[Ksize_t invalid_index[m[K)
+[7.967s]       |                                                                            [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[7.967s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:64:16:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.967s]    64 |   const size_t [01;36m[Kinvalid_index[m[K;
+[7.968s]       |                [01;36m[K^~~~~~~~~~~~~[m[K
+[7.968s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:98:65:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kerror_msg[m[K’ shadows a member of ‘[01m[Krclcpp::exceptions::InvalidServiceNameError[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[7.968s]    98 |   InvalidServiceNameError(const char * namespace_, [01;35m[Kconst char * error_msg[m[K, size_t invalid_index)
+[7.968s]       |                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.968s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:63:21:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[7.968s]    63 |   const std::string [01;36m[Kerror_msg[m[K;
+[7.968s]       |                     [01;36m[K^~~~~~~~~[m[K
+[8.482s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:43[m[K,
+[8.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[8.483s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/include/is/sh/ros2/Factory.hpp:26[m[K,
+[8.483s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/Factory.cpp:19[m[K:
+[8.483s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:[m[K In lambda function:
+[8.483s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:102:14:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Ksubscription_topic_stats[m[K’ shadows a previous local [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[8.483s]   102 |         auto [01;35m[Ksubscription_topic_stats[m[K = weak_subscription_topic_stats.lock();
+[8.483s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.484s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:74:3:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[8.484s]    74 |   [01;36m[Ksubscription_topic_stats[m[K = nullptr;
+[8.484s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.487s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:43[m[K,
+[8.487s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[8.487s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/MetaPublisher.hpp:24[m[K,
+[8.487s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/MetaPublisher.cpp:19[m[K:
+[8.488s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:[m[K In lambda function:
+[8.488s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:102:14:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Ksubscription_topic_stats[m[K’ shadows a previous local [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[8.488s]   102 |         auto [01;35m[Ksubscription_topic_stats[m[K = weak_subscription_topic_stats.lock();
+[8.488s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.488s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:74:3:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[8.488s]    74 |   [01;36m[Ksubscription_topic_stats[m[K = nullptr;
+[8.488s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.646s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:43[m[K,
+[8.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[8.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.647s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/SystemHandle.hpp:24[m[K,
+[8.647s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/SystemHandle.cpp:19[m[K:
+[8.647s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:[m[K In lambda function:
+[8.648s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:102:14:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Ksubscription_topic_stats[m[K’ shadows a previous local [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[8.648s]   102 |         auto [01;35m[Ksubscription_topic_stats[m[K = weak_subscription_topic_stats.lock();
+[8.648s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.648s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:74:3:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[8.648s]    74 |   [01;36m[Ksubscription_topic_stats[m[K = nullptr;
+[8.648s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.077s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:29[m[K,
+[10.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+[10.077s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/SystemHandle.hpp:24[m[K,
+[10.077s]                  from [01m[K/home/saba/workspaces/ramen_robot_ws/src/ROS2-SH/ros2/static/src/SystemHandle.cpp:19[m[K:
+[10.077s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:[m[K In lambda function:
+[10.077s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:143:49:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kconst rclcpp::SubscriptionWaitSetMask& mask[m[K’ shadows a parameter [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[10.078s]   143 |         [01;35m[Kconst rclcpp::SubscriptionWaitSetMask & mask[m[K)
+[10.078s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.078s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:132:37:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[10.078s]   132 |     [01;36m[Krclcpp::SubscriptionWaitSetMask mask = {}[m[K)
+[10.078s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[10.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:[m[K In lambda function:
+[10.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:218:49:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kconst rclcpp::SubscriptionWaitSetMask& mask[m[K’ shadows a parameter [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[10.079s]   218 |         [01;35m[Kconst rclcpp::SubscriptionWaitSetMask & mask[m[K)
+[10.079s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:207:37:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[10.079s]   207 |     [01;36m[Krclcpp::SubscriptionWaitSetMask mask = {}[m[K)
+[10.079s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[10.082s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:[m[K In lambda function:
+[10.082s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:544:34:[m[K [01;35m[Kwarning: [m[Kdeclaration of ‘[01m[Kstd::shared_ptr<void>&& associated_entity[m[K’ shadows a parameter [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wshadow-Wshadow]8;;[m[K]
+[10.082s]   544 |         [01;35m[Kstd::shared_ptr<void> && associated_entity[m[K)
+[10.083s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[10.083s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:533:27:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+[10.083s]   533 |     [01;36m[Kstd::shared_ptr<void> associated_entity = nullptr[m[K)
+[10.083s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.659s] [100%] [32m[1mLinking CXX shared library ../is/ros2/lib/libis-ros2.so[0m
+[18.589s] [100%] Built target is-ros2
+[18.605s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-ros2 -- -j16 -l16
+[18.642s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-ros2
+[18.652s] -- Install configuration: ""
+[18.652s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/include
+[18.652s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/include/is
+[18.653s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/include/is/sh
+[18.653s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/include/is/sh/ros2
+[18.653s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/include/is/sh/ros2/Factory.hpp
+[18.653s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib/libis-ros2.so.3.1.0
+[18.658s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib/libis-ros2.so.3.1
+[18.658s] -- Set runtime path of "/home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib/libis-ros2.so.3.1.0" to ""
+[18.658s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-ros2/lib/libis-ros2.so
+[18.661s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-ros2' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock:/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-mock/lib:/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-ros2

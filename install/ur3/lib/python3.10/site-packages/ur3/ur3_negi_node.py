@@ -14,10 +14,12 @@ class UR3NegiNode(Node):
         self.subscription_count = self.create_subscription(Int32, 'ur3_order_count', self.count_callback, 10)
         self.subscription_arrival = self.create_subscription(String, 'agv_arrival', self.arrival_callback, 10)
         self.subscription_depth = self.create_subscription(Float32, 'negi_depth', self.depth_callback, 10)
+        self.subscription_posN = self.create_subscription(Int32,'posN', self.posN_callback, 10)
         self.publisher_soup = self.create_publisher(String, 'ur3_soup_signal', 10)
         self.current_order_count = None
         self.agv_at_E = False
         self.negi_depth = None
+        self.posN = None
         self.get_logger().info('UR3 Negi Nodeが起動しました。')
         self.HOST = "192.168.56.2"
         self.PORT = 30002
@@ -50,7 +52,10 @@ class UR3NegiNode(Node):
         self.negi_depth = msg.data
         self.get_logger().info(f'最新のネギの深さ：{self.negi_depth}')
         self.check_and_start_cooking()
-
+    def posN_callback(self, msg):
+        self.posN = msg.data
+        self.get_logger().info(f'最も浅い位置ナンバー：{self.posN}')
+        self.check_and_start_cooking()
     def check_and_start_cooking(self):
         if self.current_order_count is not None:
             if not self.agv_at_E:
@@ -68,6 +73,8 @@ class UR3NegiNode(Node):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((self.HOST, self.PORT))
         listener = UrListener(s)  # UrListenerのインスタンスを作成
+        if self.negi_depth >= 0.500:
+            self.negi_depth = 0.480
         
         ur_script = (
             "def myProg():" + "\n"
@@ -76,34 +83,123 @@ class UR3NegiNode(Node):
             + "movel(p[-0.020, -0.276, 0.072, 2.213, -2.197, 0], a=1, v=0.3)" + "\n"  # change negi tool
             + "movel(p[-0.020, -0.276, 0.391, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
             + "movel(p[0.024, -0.415, 0.391, 2.213, -2.197, 0], a=3, v=1.5)" + "\n"
-            + f"movel(p[0.024, -0.415, 0.391 + 0.445 - {self.negi_depth} -0.06, 2.213, -2.197, 0], a=3, v=1.5)" + "\n"
-            + "set_digital_out(0,True)" + "\n"  # negi pick 1
-            + "sleep(2.)" + "\n"
-            + "movel(p[0.024, -0.415, 0.391, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
+            + "pos0a = get_actual_tcp_pose()" + "\n"
+            + f"pos0b = pose_add(pos0a,p[0,0,-0.05,0,0,0])" + "\n"
+            + "movel(pos0b,a=1,v=0.1)" + "\n"
+            + "sleep(1.)" + "\n"
+            )       
+        if self.posN ==0 and self.negi_depth < 0.500:
+            ur_script +=(
+                f"pos0c = pose_add(pos0b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                + "sleep(1.)" + "\n"
+                "movel(pos0c,a=3, v=1.5)" + "\n"
+            )
+        elif self.posN ==1 and self.negi_depth < 0.500:
+            ur_script +=(
+                "pos1b = pose_add(pos0b,p[0.02,0,0,0,0,0])" + "\n"
+                + f"pos1c = pose_add(pos1b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                + "movel(pos1b,a=1,v=0.1)" + "\n"
+                + "sleep(1.)" + "\n"
+                + "movel(pos1c,a=3,v=1.5)" + "\n"
+                )
+        elif self.posN ==2 and self.negi_depth < 0.500:
+            ur_script +=(
+                "pos2b = pose_add(pos0b,p[-0.02,0,0,0,0,0])" + "\n"
+                + f"pos2c = pose_add(pos2b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                + "movel(pos2b,a=1,v=0.1)" + "\n"
+                + "sleep(1.)" + "\n"
+                + "movel(pos2c,a=3,v= 1.5)" + "\n"
+                )
+        elif self.posN == 3 and self.negi_depth < 0.500:
+            ur_script +=(
+                "pos3b = pose_add(pos0b,p[0.02,0,0,0,0,-1.57])" + "\n"
+                + f"pos3c = pose_add(pos3b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                + "movel(pos3b,a=1,v=0.1)" + "\n"
+                + "sleep(1.)" + "\n"
+                + "movel(pos3c,a=3,v=1.5)" + "\n"
+                )
+        elif self.posN == 4 and self.negi_depth < 0.500:
+            ur_script +=(
+                "pos4b = pose_add(pos0b,p[0.02,0,0,0,0,-1.57])" + "\n"
+                + f"pos4c = pose_add(pos4b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                + "movel(pos4b,a=1,v=0.1)" + "\n"
+                + "sleep(1.)" + "\n"
+                + "movel(pos4c,a=3,v=1.5)" + "\n"
+                )
+               
+        ur_script +=(
+            #"set_digital_out(0,True)" + "\n" # negi pick 1
+            "sleep(2.)" + "\n"
+            + "movel(p[0.038, -0.415, 0.391, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
+            + "sleep(1.)" + "\n"
             + "movel(p[0.337, -0.064, 0.391, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
             + "movel(p[0.337, -0.064, 0.310, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
             + "set_digital_out(0,False)" + "\n"  # negi place 1
             + "sleep(2.)" + "\n"
             + "movel(p[0.337, -0.064, 0.360, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
-        )
+            )
         if self.current_order == 2:
             ur_script += (
                 # 2つ目のネギのピック＆プレース
-                + "movel(p[0.024, -0.415, 0.391, 2.214, -2.196, 0], a=3, v=1.5)" + "\n"
-                + f"movel(p[0.024, -0.415, 0.391 + 0.445 -{self.negi_depth} -0.07, 2.214, -2.196, 0], a=3, v=1.5)" + "\n"
-                + "set_digital_out(0,True)" + "\n"  # negi pick 2
-                + "sleep(2.)" + "\n"
+                "movel(p[0.024, -0.415, 0.391, 2.214, -2.196, 0], a=3, v=1.5)" + "\n"
+                + "pos0a = get_actual_tcp_pose()" + "\n"
+                + f"pos0b = pose_add(pos0a,p[0,0,-0.05,0,0,0])" + "\n"
+                + "movel(pos0b,a=1,v=0.1)" + "\n"
+                + "sleep(1.)" + "\n"
+                )       
+            if self.posN ==0 and self.negi_depth < 0.500:
+                ur_script +=(
+                    f"pos0c = pose_add(pos0b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                    + "sleep(1.)" + "\n"
+                    "movel(pos0c,a=3, v=1.5)" + "\n"
+                )
+            elif self.posN ==1 and self.negi_depth < 0.500:
+                ur_script +=(
+                    "pos1b = pose_add(pos0b,p[0.02,0,0,0,0,0])" + "\n"
+                    + f"pos1c = pose_add(pos1b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                    + "movel(pos1b,a=1,v=0.1)" + "\n"
+                    + "sleep(1.)" + "\n"
+                    + "movel(pos1c,a=3,v=1.5)" + "\n"
+                    )
+            elif self.posN ==2 and self.negi_depth < 0.500:
+                ur_script +=(
+                    "pos2b = pose_add(pos0b,p[-0.02,0,0,0,0,0])" + "\n"
+                    + f"pos2c = pose_add(pos2b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                    + "movel(pos2b,a=1,v=0.1)" + "\n"
+                    + "sleep(1.)" + "\n"
+                    + "movel(pos2c,a=3,v= 1.5)" + "\n"
+                    )
+            elif self.posN == 3 and self.negi_depth < 0.500:
+                ur_script +=(
+                    "pos3b = pose_add(pos0b,p[0,0.02,0,0,0,0])" + "\n"
+                    + f"pos3c = pose_add(pos3b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                    + "movel(pos3b,a=1,v=0.1)" + "\n"
+                    + "sleep(1.)" + "\n"
+                    + "movel(pos3c,a=3,v=1.5)" + "\n"
+                    )
+            elif self.posN == 4 and self.negi_depth < 0.500:
+                ur_script +=(
+                    "pos4b = pose_add(pos0b,p[0,0.02,0,0,0,0])" + "\n"
+                    + f"pos4c = pose_add(pos4b,p[0,0,{0.425 - self.negi_depth},0,0,0])" + "\n"
+                    + "movel(pos4b,a=1,v=0.1)" + "\n"
+                    + "sleep(1.)" + "\n"
+                    + "movel(pos4c,a=3,v=1.5)" + "\n"
+                    )
+            ur_script +=(
+                #"set_digital_out(0,True)" + "\n"  # negi pick 2
+                "sleep(2.)" + "\n"
                 + "movel(p[0.024, -0.415, 0.391, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
                 + "movel(p[0.337, -0.234, 0.391, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
                 + "movel(p[0.337, -0.234, 0.310, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
                 + "set_digital_out(0,False)" + "\n"  # negi place 2
                 + "sleep(2.)" + "\n"
-            )
+                )
+            
         ur_script += (
-            + "movel(p[-0.014, -0.275, 0.310, 2.213, -2.197, 0], a=3, v=1.5)" + "\n"
+            "movel(p[-0.014, -0.275, 0.310, 2.213, -2.197, 0], a=3, v=1.5)" + "\n"
             + "movel(p[-0.014, -0.275, 0.072, 2.214, -2.197, 0], a=3, v=1.5)" + "\n"
             + "movel(p[-0.181, -0.276, 0.072, 2.214, -2.197, 0], a=1, v=0.3)" + "\n"  # start position
-            + "end" + "\n"   
+            + "end" + "\n"  
         )
 
         s.send(self.to_bytes(ur_script))

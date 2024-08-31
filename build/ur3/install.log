@@ -2,6 +2,7 @@
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/dpt.py
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/depth_anything_node.py
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__init__.py
+/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/hello_node.py
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/ur3_negi_node.py
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/transform.py
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/ur3_retouch.py
@@ -10,6 +11,7 @@
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__pycache__/dpt.cpython-310.pyc
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__pycache__/depth_anything_node.cpython-310.pyc
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__pycache__/__init__.cpython-310.pyc
+/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__pycache__/hello_node.cpython-310.pyc
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__pycache__/ur3_negi_node.cpython-310.pyc
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__pycache__/transform.cpython-310.pyc
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/__pycache__/ur3_retouch.cpython-310.pyc
@@ -24,6 +26,7 @@
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3-0.0.0-py3.10.egg-info/requires.txt
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3-0.0.0-py3.10.egg-info/PKG-INFO
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3/depth_anything_node
+/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3/hello_node
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3/ur3_negi_node
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3/ur3_retouch_node
 /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3/ur3_soup_node

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DIS_LIBRARY_ARCHITECTURE=\"x86_64-linux-gnu\" -Dis_core_EXPORTS
 
-CXX_INCLUDES = -I/home/saba/workspaces/ramen_robot_ws/build/is-core/include -I/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include
+CXX_INCLUDES = -I/home/saba/workspaces/ramen_robot_ws/build/is-core/include -I/home/saba/workspaces/ramen_robot_ws/src/Integration-Service/core/include -isystem /usr/local/thirdparty/cpp-peglib/include
 
 CXX_FLAGS = -fPIC -pedantic -fstrict-aliasing -Wall -Wextra -Wcast-align -Wshadow -std=gnu++17
 

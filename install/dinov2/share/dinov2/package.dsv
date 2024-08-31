@@ -1,0 +1,3 @@
+source;share/dinov2/hook/pythonpath.ps1
+source;share/dinov2/hook/pythonpath.dsv
+source;share/dinov2/hook/pythonpath.sh

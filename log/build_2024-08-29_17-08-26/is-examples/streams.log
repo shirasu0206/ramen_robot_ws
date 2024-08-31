@@ -1,0 +1,19 @@
+[5.574s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples': /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/Integration-Service/examples/utils -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-examples
+[5.713s] -- The C compiler identification is GNU 11.4.0
+[5.844s] -- The CXX compiler identification is GNU 11.4.0
+[5.859s] -- Detecting C compiler ABI info
+[5.970s] -- Detecting C compiler ABI info - done
+[5.996s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.997s] -- Detecting C compile features
+[5.998s] -- Detecting C compile features - done
+[6.007s] -- Detecting CXX compiler ABI info
+[6.132s] -- Detecting CXX compiler ABI info - done
+[6.147s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.147s] -- Detecting CXX compile features
+[6.148s] -- Detecting CXX compile features - done
+[6.149s] -- Configuring done
+[6.150s] -- Generating done
+[6.151s] -- Build files have been written to: /home/saba/workspaces/ramen_robot_ws/build/is-examples
+[6.156s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples' returned '0': /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/Integration-Service/examples/utils -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-examples
+[6.159s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-examples -- -j16 -l16
+[6.219s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-examples' returned '0': /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-examples -- -j16 -l16

@@ -1,0 +1,37 @@
+[6.939s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/src/accountant': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/accountant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/accountant build --build-base /home/saba/workspaces/ramen_robot_ws/build/accountant/build install --record /home/saba/workspaces/ramen_robot_ws/build/accountant/install.log --single-version-externally-managed install_data
+[8.504s] running egg_info
+[8.508s] creating ../../build/accountant/accountant.egg-info
+[8.623s] writing ../../build/accountant/accountant.egg-info/PKG-INFO
+[8.704s] writing dependency_links to ../../build/accountant/accountant.egg-info/dependency_links.txt
+[8.955s] writing entry points to ../../build/accountant/accountant.egg-info/entry_points.txt
+[9.150s] writing requirements to ../../build/accountant/accountant.egg-info/requires.txt
+[9.229s] writing top-level names to ../../build/accountant/accountant.egg-info/top_level.txt
+[9.230s] writing manifest file '../../build/accountant/accountant.egg-info/SOURCES.txt'
+[9.370s] reading manifest file '../../build/accountant/accountant.egg-info/SOURCES.txt'
+[9.371s] writing manifest file '../../build/accountant/accountant.egg-info/SOURCES.txt'
+[9.372s] running build
+[9.372s] running build_py
+[9.372s] creating /home/saba/workspaces/ramen_robot_ws/build/accountant/build
+[9.372s] creating /home/saba/workspaces/ramen_robot_ws/build/accountant/build/lib
+[9.373s] creating /home/saba/workspaces/ramen_robot_ws/build/accountant/build/lib/accountant
+[9.373s] copying accountant/__init__.py -> /home/saba/workspaces/ramen_robot_ws/build/accountant/build/lib/accountant
+[9.373s] copying accountant/accountant_node.py -> /home/saba/workspaces/ramen_robot_ws/build/accountant/build/lib/accountant
+[9.373s] running install
+[9.383s] running install_lib
+[9.509s] creating /home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages/accountant
+[9.509s] copying /home/saba/workspaces/ramen_robot_ws/build/accountant/build/lib/accountant/__init__.py -> /home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages/accountant
+[9.509s] copying /home/saba/workspaces/ramen_robot_ws/build/accountant/build/lib/accountant/accountant_node.py -> /home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages/accountant
+[9.510s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages/accountant/__init__.py to __init__.cpython-310.pyc
+[9.510s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages/accountant/accountant_node.py to accountant_node.cpython-310.pyc
+[9.511s] running install_data
+[9.512s] creating /home/saba/workspaces/ramen_robot_ws/install/accountant/share/ament_index
+[9.512s] creating /home/saba/workspaces/ramen_robot_ws/install/accountant/share/ament_index/resource_index
+[9.512s] creating /home/saba/workspaces/ramen_robot_ws/install/accountant/share/ament_index/resource_index/packages
+[9.512s] copying resource/accountant -> /home/saba/workspaces/ramen_robot_ws/install/accountant/share/ament_index/resource_index/packages
+[9.513s] copying package.xml -> /home/saba/workspaces/ramen_robot_ws/install/accountant/share/accountant
+[9.513s] running install_egg_info
+[9.640s] Copying ../../build/accountant/accountant.egg-info to /home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages/accountant-0.0.0-py3.10.egg-info
+[9.642s] running install_scripts
+[9.899s] Installing accountant_node script to /home/saba/workspaces/ramen_robot_ws/install/accountant/lib/accountant
+[9.900s] writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/accountant/install.log'
+[9.986s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/src/accountant' returned '0': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/accountant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/accountant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/accountant build --build-base /home/saba/workspaces/ramen_robot_ws/build/accountant/build install --record /home/saba/workspaces/ramen_robot_ws/build/accountant/install.log --single-version-externally-managed install_data

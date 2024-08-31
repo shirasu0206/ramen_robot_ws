@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/PKG-INFO
+writing dependency_links to ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/dependency_links.txt
+writing requirements to ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/requires.txt
+writing top-level names to ../../build/ramen_robot_launch/ramen_robot_launch.egg-info/top_level.txt
+reading manifest file '../../build/ramen_robot_launch/ramen_robot_launch.egg-info/SOURCES.txt'
+writing manifest file '../../build/ramen_robot_launch/ramen_robot_launch.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/lib/python3.10/site-packages/ramen_robot_launch-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ramen_robot_launch/ramen_robot_launch.egg-info to /home/saba/workspaces/ramen_robot_ws/install/ramen_robot_launch/lib/python3.10/site-packages/ramen_robot_launch-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/ramen_robot_launch/install.log'

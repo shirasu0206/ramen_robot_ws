@@ -1,0 +1,28 @@
+[2.598s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/src/ur3': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/ur3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3 build --build-base /home/saba/workspaces/ramen_robot_ws/build/ur3/build install --record /home/saba/workspaces/ramen_robot_ws/build/ur3/install.log --single-version-externally-managed install_data
+[3.868s] running egg_info
+[3.958s] writing ../../build/ur3/ur3.egg-info/PKG-INFO
+[4.021s] writing dependency_links to ../../build/ur3/ur3.egg-info/dependency_links.txt
+[4.213s] writing entry points to ../../build/ur3/ur3.egg-info/entry_points.txt
+[4.347s] writing requirements to ../../build/ur3/ur3.egg-info/requires.txt
+[4.410s] writing top-level names to ../../build/ur3/ur3.egg-info/top_level.txt
+[4.529s] reading manifest file '../../build/ur3/ur3.egg-info/SOURCES.txt'
+[4.530s] writing manifest file '../../build/ur3/ur3.egg-info/SOURCES.txt'
+[4.530s] running build
+[4.530s] running build_py
+[4.531s] copying ur3/ur3_negi_node.py -> /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3
+[4.531s] running install
+[4.538s] running install_lib
+[4.628s] copying /home/saba/workspaces/ramen_robot_ws/build/ur3/build/lib/ur3/ur3_negi_node.py -> /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3
+[4.629s] byte-compiling /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3/ur3_negi_node.py to ur3_negi_node.cpython-310.pyc
+[4.631s] running install_data
+[4.631s] running install_egg_info
+[4.723s] removing '/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3-0.0.0-py3.10.egg-info' (and everything under it)
+[4.723s] Copying ../../build/ur3/ur3.egg-info to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages/ur3-0.0.0-py3.10.egg-info
+[4.724s] running install_scripts
+[4.919s] Installing depth_anything_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3
+[4.920s] Installing hello_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3
+[4.920s] Installing ur3_negi_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3
+[4.920s] Installing ur3_retouch_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3
+[4.920s] Installing ur3_soup_node script to /home/saba/workspaces/ramen_robot_ws/install/ur3/lib/ur3
+[4.920s] writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/ur3/install.log'
+[4.950s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/src/ur3' returned '0': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/ur3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/ur3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3 build --build-base /home/saba/workspaces/ramen_robot_ws/build/ur3/build install --record /home/saba/workspaces/ramen_robot_ws/build/ur3/install.log --single-version-externally-managed install_data

@@ -16,6 +16,7 @@ ur3/__init__.py
 ur3/blocks.py
 ur3/depth_anything_node.py
 ur3/dpt.py
+ur3/hello_node.py
 ur3/transform.py
 ur3/ur3_negi_node.py
 ur3/ur3_retouch.py

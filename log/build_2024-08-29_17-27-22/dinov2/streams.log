@@ -1,0 +1,21 @@
+[7.460s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/torchhub/facebookresearch_dinov2_main': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/dinov2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dinov2 build --build-base /home/saba/workspaces/ramen_robot_ws/build/dinov2/build install --record /home/saba/workspaces/ramen_robot_ws/build/dinov2/install.log --single-version-externally-managed
+[8.127s] /home/saba/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:275: UserWarning: Unknown distribution option: 'install_package_data'
+[8.128s]   warnings.warn(msg)
+[8.989s] running egg_info
+[9.088s] writing ../../build/dinov2/dinov2.egg-info/PKG-INFO
+[9.160s] writing dependency_links to ../../build/dinov2/dinov2.egg-info/dependency_links.txt
+[9.511s] writing requirements to ../../build/dinov2/dinov2.egg-info/requires.txt
+[9.584s] writing top-level names to ../../build/dinov2/dinov2.egg-info/top_level.txt
+[9.716s] reading manifest file '../../build/dinov2/dinov2.egg-info/SOURCES.txt'
+[9.717s] adding license file 'LICENSE'
+[9.718s] writing manifest file '../../build/dinov2/dinov2.egg-info/SOURCES.txt'
+[9.719s] running build
+[9.719s] running build_py
+[9.724s] running install
+[9.732s] running install_lib
+[9.848s] running install_egg_info
+[9.949s] removing '/home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2-0.0.1-py3.10.egg-info' (and everything under it)
+[9.950s] Copying ../../build/dinov2/dinov2.egg-info to /home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages/dinov2-0.0.1-py3.10.egg-info
+[9.951s] running install_scripts
+[10.148s] writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/dinov2/install.log'
+[10.197s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/torchhub/facebookresearch_dinov2_main' returned '0': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/dinov2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/dinov2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dinov2 build --build-base /home/saba/workspaces/ramen_robot_ws/build/dinov2/build install --record /home/saba/workspaces/ramen_robot_ws/build/dinov2/install.log --single-version-externally-managed

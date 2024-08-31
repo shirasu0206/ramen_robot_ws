@@ -1,4 +1,6 @@
 from setuptools import setup
+from glob import glob
+import os
 
 package_name = 'ur3'
 
@@ -9,7 +11,7 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name, ['package.xml'])
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,10 +22,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'depth_anything_node = ur3.depth_anything_node:main',
             'ur3_negi_node = ur3.ur3_negi_node:main',
             'ur3_soup_node = ur3.ur3_soup_node:main',
-            'ur3_retouch_node = ur3.ur3_retouch_node:main'
+            'ur3_retouch_node = ur3.ur3_retouch_node:main',
+            'hello_node = ur3.hello_node:main',
+            'depth_anything_node = ur3.depth_anything_node:main',   
         ],
     },
 )

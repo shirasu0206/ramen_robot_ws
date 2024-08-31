@@ -1,0 +1,2 @@
+/home/saba/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:275: UserWarning: Unknown distribution option: 'install_package_data'
+  warnings.warn(msg)

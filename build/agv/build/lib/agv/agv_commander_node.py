@@ -10,8 +10,7 @@ class AGVCommander(Node):
         self.publisher_command = self.create_publisher(String, 'agv_command', 10)
         self.publisher_ur5_arrival = self.create_publisher(String, 'ur5_arrival', 10)  # UR5への到着通知パブリッシャーを追加
         self.positions = ['F','E','D','C','B','A']
-        #self.agv_positions = {'agv1': 'A','agv2': 'B'}
-        self.agv_positions = {'agv1': 'A'}
+        self.agv_positions = {'agv1': 'A','agv2': 'B'}
         self.agv_moving = False
         self.ur5_done = False
         self.ur3_done = False
@@ -50,7 +49,7 @@ class AGVCommander(Node):
             self.processing_order = True
             if not self.ur5_processing and not self.ur3_processing:  # 両方が処理中でない場合
                 #if self.agv_positions['agv1'] == 'F' or self.agv_positions['agv2'] == 'F':  # AGV1がF地点にいるか確認
-                if self.agv_positions['agv1'] :
+                if self.agv_positions['agv1']  == 'F' or self.agv_positions['agv2'] == 'F':
                     self.current_order_count = self.order_queue.popleft()
                     self.send_ur5_signal()
             self.processing_order = False
@@ -59,16 +58,16 @@ class AGVCommander(Node):
             if self.agv_positions['agv1'] == 'F' and not self.agv_moving:
                 self.move_agv('agv1', 'E')
             self.ur5_done = False
-            #if self.agv_positions['agv2'] == 'F' and not self.agv_moving:
-             #   self.move_agv('agv2', 'E')
-            #self.ur5_done = False
+            if self.agv_positions['agv2'] == 'F' and not self.agv_moving:
+                self.move_agv('agv2', 'E')
+            self.ur5_done = False
         if self.ur3_done:
             if self.agv_positions['agv1'] == 'E' and not self.agv_moving:
                 self.move_agv('agv1', 'D')
             self.ur3_done = False
-            #if self.agv_positions['agv2'] == 'E' and not self.agv_moving:
-            #    self.move_agv('agv2', 'D')
-            #self.ur3_done = False
+            if self.agv_positions['agv2'] == 'E' and not self.agv_moving:
+                self.move_agv('agv2', 'D')
+            self.ur3_done = False
     def check_and_move_agvs(self):
         if not self.agv_moving:
             if self.agv_positions['agv1'] == 'A' and 'F' not in self.agv_positions.values():
@@ -79,7 +78,7 @@ class AGVCommander(Node):
                 self.move_agv('agv1', 'B')
             if self.agv_positions['agv1'] == 'B' and 'A' not in self.agv_positions.values():
                 self.move_agv('agv1', 'A')
-                '''
+                
             if self.agv_positions['agv2'] == 'A' and 'F' not in self.agv_positions.values():
                 self.move_agv('agv2', 'F')
             if self.agv_positions['agv2'] == 'D' and 'C' not in self.agv_positions.values():
@@ -88,7 +87,7 @@ class AGVCommander(Node):
                 self.move_agv('agv2', 'B')
             if self.agv_positions['agv2'] == 'B' and 'A' not in self.agv_positions.values():
                 self.move_agv('agv2', 'A')
-                '''
+                
     def move_agv(self, agv_id, next_pos):
         if self.agv_positions[agv_id] != next_pos and next_pos not in self.agv_positions.values():
             command = f"{agv_id} move to {next_pos}"

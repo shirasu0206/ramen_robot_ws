@@ -1,0 +1,24 @@
+[7.532s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/src/ur5': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/saba/workspaces/ramen_robot_ws/build/ur5/build install --record /home/saba/workspaces/ramen_robot_ws/build/ur5/install.log --single-version-externally-managed install_data
+[8.957s] running egg_info
+[9.059s] writing ../../build/ur5/ur5.egg-info/PKG-INFO
+[9.131s] writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+[9.345s] writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+[9.494s] writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+[9.565s] writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+[9.697s] reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[9.698s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[9.698s] running build
+[9.699s] running build_py
+[9.699s] running install
+[9.707s] running install_lib
+[9.810s] running install_data
+[9.810s] running install_egg_info
+[9.914s] removing '/home/saba/workspaces/ramen_robot_ws/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info' (and everything under it)
+[9.914s] Copying ../../build/ur5/ur5.egg-info to /home/saba/workspaces/ramen_robot_ws/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info
+[9.915s] running install_scripts
+[10.132s] Installing pork_image_node script to /home/saba/workspaces/ramen_robot_ws/install/ur5/lib/ur5
+[10.132s] Installing ur5_noodle_node script to /home/saba/workspaces/ramen_robot_ws/install/ur5/lib/ur5
+[10.132s] Installing ur5_pork_node script to /home/saba/workspaces/ramen_robot_ws/install/ur5/lib/ur5
+[10.133s] Installing ur5_retouch_node script to /home/saba/workspaces/ramen_robot_ws/install/ur5/lib/ur5
+[10.133s] writing list of installed files to '/home/saba/workspaces/ramen_robot_ws/build/ur5/install.log'
+[10.176s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/src/ur5' returned '0': PYTHONPATH=/home/saba/workspaces/ramen_robot_ws/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saba/workspaces/ramen_robot_ws/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/saba/workspaces/ramen_robot_ws/build/ur5/build install --record /home/saba/workspaces/ramen_robot_ws/build/ur5/install.log --single-version-externally-managed install_data

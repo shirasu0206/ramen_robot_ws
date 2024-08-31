@@ -1,0 +1,43 @@
+[0.032s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/Integration-Service/utils/conversion/json-xtypes -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.139s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.278s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.339s] -- Configuring [is-json-xtypes]...
+[0.343s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.463s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.464s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.586s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[0.586s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.706s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[0.708s] -- Configuring done
+[0.715s] -- Generating done
+[0.716s] -- Build files have been written to: /home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes
+[0.720s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake /home/saba/workspaces/ramen_robot_ws/src/Integration-Service/utils/conversion/json-xtypes -DCMAKE_INSTALL_PREFIX=/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes
+[0.723s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes -- -j16 -l16
+[0.791s] [ 25%] [32mBuilding CXX object CMakeFiles/is-json-xtypes.dir/src/conversion.cpp.o[0m
+[11.992s] [ 50%] [32m[1mLinking CXX shared library libis-json-xtypes.so[0m
+[12.303s] [ 50%] Built target is-json-xtypes
+[12.332s] [ 75%] [32mBuilding CXX object CMakeFiles/is-json-xtypes-example.dir/example/main.cpp.o[0m
+[24.537s] [100%] [32m[1mLinking CXX executable is-json-xtypes-example[0m
+[24.907s] [100%] Built target is-json-xtypes-example
+[24.924s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --build /home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes -- -j16 -l16
+[24.967s] Invoking command in '/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes
+[24.979s] -- Install configuration: ""
+[24.979s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/libis-json-xtypes.so.3.1.0
+[24.983s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/libis-json-xtypes.so.3.1
+[24.984s] -- Set runtime path of "/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/libis-json-xtypes.so.3.1.0" to ""
+[24.984s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/libis-json-xtypes.so
+[24.984s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/cmake/is-json-xtypes/is-json-xtypes-target.cmake
+[24.984s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/cmake/is-json-xtypes/is-json-xtypes-target-noconfig.cmake
+[24.985s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/include
+[24.985s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/include/is
+[24.985s] -- Up-to-date: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/include/is/json-xtypes
+[24.985s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/include/is/json-xtypes/json.hpp
+[24.986s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/include/is/json-xtypes/conversion.hpp
+[24.986s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/lib/cmake/is-json-xtypes/is-json-xtypesConfig.cmake
+[24.986s] -- Installing: /home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/bin/is-json-xtypes-example
+[24.990s] -- Set runtime path of "/home/saba/workspaces/ramen_robot_ws/install/is-json-xtypes/bin/is-json-xtypes-example" to ""
+[24.994s] Invoked command in '/home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes' returned '0': CMAKE_PREFIX_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/lib:${LD_LIBRARY_PATH} PATH=/home/saba/workspaces/ramen_robot_ws/install/is-core/bin:${PATH} /usr/bin/cmake --install /home/saba/workspaces/ramen_robot_ws/build/is-json-xtypes
